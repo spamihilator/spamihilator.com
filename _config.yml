@@ -1,0 +1,7 @@
+permalink: /:title
+pygments: false
+markdown: rdiscount
+lsi: false
+url: http://localhost:4000
+canonicalurl: http://www.spamihilator.com
+exclude: [ config.rb, sass ]

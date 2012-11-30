@@ -1,0 +1,187 @@
+// You custom settings file to override Foundation defaults
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// ----------------------------------------
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "compass/css3";
+@import "compass/css3/transition";
+@import "compass/typography/lists/bullets";
+// @import "foundation/settings";
+// @import "foundation/functions/all";
+
+// Control which mixins you have access too
+
+// @import "foundation/mixins/clearfix";
+// @import "foundation/mixins/css-triangle";
+// @import "foundation/mixins/font-size";
+
+// Must include next two for semantic grid to work
+
+// @import "foundation/mixins/respond-to";
+// @import "foundation/mixins/semantic-grid";
+
+// @import "modular-scale";
+// @import "foundation/common/globals";
+
+// Must include the grid for any responsiveness
+
+// @import "foundation/components/grid";
+
+// Control which common styles get compiled
+
+// @import "foundation/common/typography";
+// @import "foundation/common/forms";
+
+// Control which components you get if customizing
+
+// @import "foundation/components/modules/buttons";
+// @import "foundation/components/modules/tabs";
+// @import "foundation/components/modules/ui";
+// @import "foundation/components/modules/topbar";
+// @import "foundation/components/modules/navbar";
+// @import "foundation/components/modules/orbit";
+// @import "foundation/components/modules/reveal";
+// @import "foundation/components/modules/offcanvas";
+
+// Media Queries Overrides
+// @import "foundation/components/modules/mqueries";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300bold,400bold,400,300);
+
+body {
+  background-image: url("../images/main-bg.png");
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+.main-logo {
+  max-height: 66px;
+}
+
+#welcome-banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#welcome-banner-image {
+  max-width: 387px;
+}
+
+#welcome-banner-left {
+  padding-top: 20px;
+  
+  .welcome-banner-spamihilator {
+    font-size: 550%;
+    font-weight: normal;
+    color: #444;
+  }
+}
+
+#welcome-banner-slogan {
+  font-size: 180%;
+  color: #777;
+  
+  span {
+    padding-left: 80px;
+    width: 100%;
+    display: block;
+  }
+  span:first-child {
+    padding-left: 60px;
+  }
+  span:last-child {
+    padding-left: 120px;
+  }
+}
+
+#welcome-banner-download {
+  margin: 40px 0px;
+}
+
+#welcome-banner-download-button {
+  padding: 10px 12px;
+  font-size: 130%;
+  font-weight: normal;
+  line-height: 24px;
+  height: 47px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+  img {
+    float: left;
+    margin-right: 6px;
+  }
+}
+
+#welcome-banner-download-notes {
+  line-height: 1.4em;
+  padding-top: 3px;
+  li {
+    @include no-bullet;
+    &:first-child {
+      font-size: 110%;
+      font-weight: bold;
+    }
+  }
+}
+
+#welcome-news {
+  li {
+    @include no-bullet;
+  }
+}
+
+.welcome-features {
+  img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+$button-color: #ffaa22;
+$nav-bar-background: #ffaa22;
+$nav-bar-border-radius: 10px;
+
+.button {
+  background-color: $button-color;
+  border: 1px solid darken(($button-color), 15%);
+  &:hover {
+    background-color: lighten(($button-color), 10%);
+  }
+}
+
+.nav-bar {
+  background: none;
+  margin-top: 0px;
+  li {
+    background-color: $nav-bar-background;
+    border: none;
+    line-height: 40px;
+    @include transition-property(background-color);
+    @include transition-duration(0.15s);
+    @include transition-timing-function(ease-in-out);
+    a {
+      color: $white;
+    }
+    &:last-child {
+      border: none;
+      @include border-bottom-right-radius($nav-bar-border-radius);
+    }
+    &:first-child {
+      @include border-bottom-left-radius($nav-bar-border-radius);
+    }
+    &:hover {
+      background-color: lighten($nav-bar-background, 10%);
+    }
+  }
+}
+
+.optional {
+  color: lighten($txtColor, 40%);
+}
