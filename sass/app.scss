@@ -59,6 +59,16 @@ body {
   background-position: top left;
 }
 
+footer {
+  margin-bottom: 60px !important;
+  li {
+    @include no-bullet;
+  }
+  a {
+    color: lighten($txtColor, 40%);
+  }
+}
+
 .main-logo {
   max-height: 66px;
 }
