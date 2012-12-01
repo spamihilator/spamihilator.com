@@ -1,0 +1,95 @@
+{% include header.html %}
+<div class="row" id="welcome-banner">
+  <div class="seven columns">
+    <div id="welcome-banner-left">
+      <span class="welcome-banner-spamihilator">Spamihilator</span><br>
+      <div id="welcome-banner-slogan">
+        <span>{% if page.lang == 'de' %} ... entfernt mehr als 98% der {% else %} ... removes more than 98% of {% endif %}</span>
+        <span>{% if page.lang == 'de' %} Spam-Nachrichten bereits beim {% else %} spam mails before they even {% endif %}</span>
+        <span>{% if page.lang == 'de' %} Herunterladen Ihrer E-Mails! {% else %} get into your inbox! {% endif %}</span>
+     </div>
+    </div>
+    <div id="welcome-banner-download">
+      <a href="{{ site.url }}/{{ page.lang }}/download" class="radius button left" id="welcome-banner-download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download{% endif %}</a>
+      <ul id="welcome-banner-download-notes">
+        <li>{% if page.lang == 'de' %} kostenlos! {% else %} free! {% endif %}</li>
+        <li>Windows ({% if page.lang == 'de' %}32-Bit oder 64-Bit{% else %}32-bit or 64-bit{% endif %})</li>
+      </ul>
+    </div>
+  </div>
+  <div class="five columns right">
+    <img id="welcome-banner-image" src="{{ site.url }}/images/banner01-de.jpg" />
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr />
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="eight columns">
+    {% render_partial_lang index/what_is_spamihilator.md convert %}
+  </div>
+
+  <div class="four columns" id="welcome-news">
+    <h4>Ankündigungen</h4>
+    <ul>
+    <li><a href="#">Spamihilator 1.0 wurde veröffentlicht!</a><br>06.11.2011</li>
+    <li><a href="#">Neue Beta-Version 0.9.9.60 von Spamihilator</a><br>09.10.2011</li>
+    <li><a href="#">Spamihilator Beta-Version 0.9.9.59 öffentlich verfügbar</a><br>31.08.2011</li>
+    <li><a href="#">Spamihilator 0.9.9.53 wurde veröffentlicht!</a><br>31.01.2010</li>
+    <li><a href="#">Spamihilator 0.9.9.52 wurde veröffentlicht!</a><br>23.12.2009</li>
+    </ul>
+    <a href="#">&raquo; Zeige alle Einträge...</a>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr />
+  </div>
+</div>
+
+<div class="row welcome-features">
+  <div class="four columns">
+  <img src="{{ site.url }}/images/learn.gif">
+  {% render_partial_lang index/recognition.md convert %}
+  </div>
+  <div class="four columns">
+  <img src="{{ site.url }}/images/ssl.gif">
+  {% render_partial_lang index/pop3_imap.md convert %}
+  </div>
+  <div class="four columns" id="welcome-page-google-ads1">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1502100978693819";
+/* Spamihilator 2 */
+google_ad_slot = "5286013968";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </div>
+</div>
+
+<div class="row welcome-features">
+  <div class="four columns">
+  <img src="{{ site.url }}/images/spam.gif">
+  {% render_partial_lang index/senders.md convert %}
+  </div>
+  <div class="four columns">
+  <img src="{{ site.url }}/images/recycle.gif">
+  {% render_partial_lang index/spam_non_spam.md convert %}
+  </div>
+  <div class="four columns">
+  <img src="{{ site.url }}/images/viewmessage.gif">
+  {% render_partial_lang index/usability.md convert %}
+  </div>
+</div>
+{% include footer.html %}

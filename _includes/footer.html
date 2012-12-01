@@ -3,22 +3,23 @@
     <hr />
     <div class="row">
       <div class="eight columns">
-        <p>Copyright &copy; 2002-2012 <a href="{{ site.url }}/about">Michel Krämer</a>. Alle Rechte vorbehalten.</p>
+        <p>Copyright &copy; 2002-2012 <a href="{{ site.url }}/{{ page.lang }}/about">Michel Krämer</a>.
+        {% if page.lang == 'de' %}Alle Rechte vorbehalten.{% else %}All rights reserved.{% endif %}</p>
       </div>
       <div class="two columns">
         <ul>
-          <li><a href="#">Online-Hilfe</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Support-Forum</a></li>
+          <li><a href="http://wiki.spamihilator.com">{% if page.lang == 'de' %}Online-Hilfe{% else %}Online Help{% endif %}</a></li>
+          <li><a href="{{ site.url }}/{{ page.lang }}/faq">FAQ</a></li>
+          <li><a href="{{ site.url }}/forum">{% if page.lang == 'de' %}Support-Forum{% else %}Support{% endif %}</a></li>
         </ul>
       </div>
       <div class="two columns">
         <ul>
-          <li><a href="{{ site.url}}">Home</a></li>
-          <li><a href="{{ site.url }}/download">Download</a></li>
-          <li><a href="{{ site.url }}/plugins">Plugins/Add-ons</a></li>
-          <li><a href="{{ site.url }}/support">Support</a></li>
-          <li><a href="{{ site.url }}/about">Impressum</a></li>
+          <li><a href="{{ site.url}}/{{ page.lang }}/">Home</a></li>
+          <li><a href="{{ site.url }}/{{ page.lang }}/download">Download</a></li>
+          <li><a href="{{ site.url }}/{{ page.lang }}/plugins">Plugins/Add-ons</a></li>
+          <li><a href="{{ site.url }}/{{ page.lang }}/support">Support</a></li>
+          <li><a href="{{ site.url }}/{{ page.lang }}/about">{% if page.lang == 'de' %}Impressum{% else %}About{% endif %}</a></li>
         </ul>
       </div>
     </div>
