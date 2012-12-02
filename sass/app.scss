@@ -73,6 +73,10 @@ footer {
   max-height: 66px;
 }
 
+img.drop-shadow {
+  @include box-shadow(lighten($black, 40%) 2px 2px 10px);
+}
+
 #welcome-banner {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -158,6 +162,14 @@ footer {
   }
 }
 
+#mainContent {
+  margin-top: 25px;
+}
+
+.vcard {
+  margin-bottom: 26px;
+}
+
 $button-color: #ffaa22;
 $nav-bar-background: #ffaa22;
 $nav-bar-border-radius: 10px;
@@ -198,4 +210,8 @@ $nav-bar-border-radius: 10px;
 
 .optional {
   color: lighten($txtColor, 40%);
+}
+
+.alert-box.alert a {
+  color: lighten($mainColor, 35%);
 }

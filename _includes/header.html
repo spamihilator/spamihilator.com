@@ -19,7 +19,7 @@
       <li><a href="{{ site.url }}/{{ page.lang }}/download">Download</a></li>
       <li><a href="{{ site.url }}/{{ page.lang }}/plugins">Plugins/Add-ons</a></li>
       <li><a href="{{ site.url }}/{{ page.lang }}/support">Support</a></li>
-      <li><a href="{{ site.url }}/{{ page.lang }}/about">{% if page.lang == 'de' %}Impressum{% else %}About{% endif %}</a></li>
+      <li><a href="{{ site.url }}/{{ page.lang }}/{% if page.lang == 'de' %}impressum{% else %}about{% endif %}">{% if page.lang == 'de' %}Impressum{% else %}About{% endif %}</a></li>
     </ul>
   </div>
 </div>
