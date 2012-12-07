@@ -1,6 +1,10 @@
 permalink: /:title
 pygments: false
-markdown: rdiscount
+
+# we need kramdown here, since we have markdown in <div> blocks
+# which is not supported by rdiscount
+markdown: kramdown
+
 lsi: false
 url: http://localhost:4000
 canonicalurl: http://www.spamihilator.com
