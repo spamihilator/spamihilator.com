@@ -2,11 +2,12 @@
 <div class="row" id="welcome-banner">
   <div class="seven columns">
     <div id="welcome-banner-left">
-      <span class="welcome-banner-spamihilator">Spamihilator</span><br>
+      <img src="{{ site.url }}/images/logo-letter.png" class="welcome-banner-logo-letter">
+      <div class="welcome-banner-spamihilator">Spamihilator</div><br>
       <div id="welcome-banner-slogan">
-        <span>{% if page.lang == 'de' %} ... entfernt mehr als 98% der {% else %} ... removes more than 98% of {% endif %}</span>
-        <span>{% if page.lang == 'de' %} Spam-Nachrichten bereits beim {% else %} spam mails before they even {% endif %}</span>
-        <span>{% if page.lang == 'de' %} Herunterladen Ihrer E-Mails! {% else %} get into your inbox! {% endif %}</span>
+        <span class="first">{% if page.lang == 'de' %} ... entfernt mehr als 98% der {% else %} ... removes more than 98% of {% endif %}</span>
+        <span class="second">{% if page.lang == 'de' %} Spam-Nachrichten bereits beim {% else %} spam mails before they even {% endif %}</span>
+        <span class="third">{% if page.lang == 'de' %} Herunterladen Ihrer E-Mails! {% else %} get into your inbox! {% endif %}</span>
      </div>
     </div>
     <div id="welcome-banner-download">
@@ -29,9 +30,23 @@
 </div>
 
 <div class="row">
+  <div class="twelve columns">
+    {% render_partial_lang index/what_is_spamihilator.md convert %}
+    </h5>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr />
+  </div>
+</div>
+
+<div class="row welcome-features" id="features">
 
   <div class="eight columns">
-    {% render_partial_lang index/what_is_spamihilator.md convert %}
+    <img src="{{ site.url }}/images/learn.gif">
+    {% render_partial_lang index/recognition.md convert %}
   </div>
 
   <div class="four columns" id="welcome-news">
@@ -56,12 +71,12 @@
 
 <div class="row welcome-features">
   <div class="four columns">
-  <img src="{{ site.url }}/images/learn.gif">
-  {% render_partial_lang index/recognition.md convert %}
+  <img src="{{ site.url }}/images/spam.gif">
+  {% render_partial_lang index/senders.md convert %}
   </div>
   <div class="four columns">
-  <img src="{{ site.url }}/images/ssl.gif">
-  {% render_partial_lang index/pop3_imap.md convert %}
+  <img src="{{ site.url }}/images/recycle.gif">
+  {% render_partial_lang index/spam_non_spam.md convert %}
   </div>
   <div class="four columns" id="welcome-page-google-ads1">
 <script type="text/javascript"><!--
@@ -80,16 +95,14 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <div class="row welcome-features">
   <div class="four columns">
-  <img src="{{ site.url }}/images/spam.gif">
-  {% render_partial_lang index/senders.md convert %}
-  </div>
-  <div class="four columns">
-  <img src="{{ site.url }}/images/recycle.gif">
-  {% render_partial_lang index/spam_non_spam.md convert %}
+  <img src="{{ site.url }}/images/ssl.gif">
+  {% render_partial_lang index/pop3_imap.md convert %}
   </div>
   <div class="four columns">
   <img src="{{ site.url }}/images/viewmessage.gif">
   {% render_partial_lang index/usability.md convert %}
+  </div>
+  <div class="four columns">
   </div>
 </div>
 {% include footer.html %}

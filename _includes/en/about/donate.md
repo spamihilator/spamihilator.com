@@ -1,4 +1,4 @@
-##### Support Spamihilator with donations!
+#### Support Spamihilator with donations!
 
 Spamihilator is Freeware. This means, it is distributed free of charge.
 If you like the program and if you want to support its development, just

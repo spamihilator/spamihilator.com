@@ -1,4 +1,4 @@
-##### Unterstützen Sie Spamihilator durch Spenden!
+#### Unterstützen Sie Spamihilator durch Spenden!
 
 Spamihilator ist Freeware, d.h. es wird wird kostenlos vertrieben. Wenn
 Sie das Programm mögen und dazu beitragen wollen, dass es auch in Zukunft
@@ -13,7 +13,7 @@ gratis bleibt, spenden Sie doch einen kleinen Betrag.
 
 Ihr Geld wird sinnvoll für die Weiterentwicklung von Spamihilator eingesetzt!
 
-##### Wunschzettel bei Amazon
+#### Wunschzettel bei Amazon
 
 Wenn Sie nichts per PayPal spenden wollen, mir aber trotzdem eine Freude machen möchten,
 können Sie auch etwas von meinem [Wunschzettel](http://www.amazon.de/registry/wishlist/2WRRKJ0LSPTKC)

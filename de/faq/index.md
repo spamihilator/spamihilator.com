@@ -1,4 +1,5 @@
 ---
+id: faq
 lang: de
 title: FAQ
 layout: main
@@ -6,6 +7,9 @@ layout: main
 
 <div class="row">
 <div class="twelve columns" markdown="1">
+
+## Support
+{: .page-title }
 
 ### Häufig gestellte Fragen (FAQ)
 
@@ -28,7 +32,7 @@ Hier finden Sie eine Liste von häufig gestellten Fragen.
 
 ##### Probleme
 
-[P01. Das Programm zeigt beim Starten “Socket-Fehler”!](#p01)  
+[P01. Das Programm zeigt beim Starten "Socket-Fehler"!](#p01)  
 [P02. Ich kann keine Mails mehr versenden!](#p02)  
 [P03. Ich kann keine E-Mails mehr empfangen!](#p03)  
 [P04. Spamihilator filtert nichts](#p04)  
@@ -167,7 +171,7 @@ Andere E-Mail-Programme müssen Sie manuell einstellen. Schauen Sie dazu bitte i
 
 ### Probleme
 
-#### <a id="p01"></a>P01. Das Programm zeigt beim Starten “Socket-Fehler”!
+#### <a id="p01"></a>P01. Das Programm zeigt beim Starten "Socket-Fehler"!
 
 Auf dem PC ist ein anderes Programm installiert, das den POP3-Standardport 110 benutzt. Öffnen
 Sie deshalb den Einstellungsdialog von Spamihilator, indem Sie mit der rechten Maustaste auf das
@@ -227,7 +231,7 @@ das Ihnen den Download-Status anzeigt, dann müssen Sie Ihr E-Mail-Programm even
 einmal richtig einstellen.
 
 Benutzen Sie dazu entweder den Setup-Assistenten, den Sie auch im Startmenü in der Spamihilator-Programmgruppe
-finden, oder richten Sie Ihr E-Mail-Programm manuell ein. Lesen Sie dazu die^
+finden, oder richten Sie Ihr E-Mail-Programm manuell ein. Lesen Sie dazu die
 [Anleitung in der Hilfe](http://www.spamihilator.com/de/help/configclient).
 
 Bitte überprüfen Sie auch, ob alle Spam-Filter eingeschaltet sind. Öffnen Sie dazu das

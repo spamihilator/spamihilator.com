@@ -1,29 +1,30 @@
 {% include header.html %}
 
 <section id="mainContent">
-<div class="row">
-<div class="eight columns">
 
 <div class="row">
   <div class="twelve columns">
-    <h3>{{ page.title }}</h3>
+    <h3 class="page-title">{{ page.title }}</h3>
   </div>
 </div>
 
 <div class="row">
-  <div class="three columns">
+<div class="eight columns">
+
+<div class="row">
+  <div class="three columns padding-top-like-header">
     <img src="{{ site.url }}/images/mkraemer.jpg" class="drop-shadow">
   </div>
   <div class="nine columns">
     <div class="vcard">
-      <p>
+      <h4 class="subheader">
       <span class="fn">Michel Krämer</span><br />
       <span class="adr">
         <span class="street-address">Buchenweg 14</span><br />
         <span class="postal-code">35418</span> <span class="locality">Buseck</span>
       </span><br />
       Germany
-      </p>
+      </h4>
       <p><a href="mailto:michel@undercouch.de">michel@undercouch.de</a><br />
       <span class="url"><a href="http://www.spamihilator.com">http://www.spamihilator.com</a></span><br />
       <span class="url">
@@ -37,6 +38,11 @@
       <a href="http://twitter.com/michelkraemer" class="twitter-follow-button" data-show-count="false" data-lang="{{ page.lang }}">{% if page.lang == 'de' %}@michelkraemer folgen{% else %}Follow @michelkraemer{% endif %}</a>
       <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
     </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="eight columns">
     <div class="alert-box alert">
     {% if page.lang == 'de' %}
     Es wird kein Support per E-Mail oder Telefon angeboten!
