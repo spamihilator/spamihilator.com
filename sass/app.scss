@@ -76,6 +76,14 @@ footer {
   padding: 25px 0px 40px 0px;
   @include single-text-shadow(0px, -1px, 0px, false, rgba(0, 0, 0, .5));
   font-weight: 300;
+  
+  &.with-subheader {
+    padding: 25px 0px 0px 0px;
+  }
+  
+  & + .subheader {
+    padding: 0px 0px 40px 0px;
+  }
 }
 
 h3 {
@@ -83,7 +91,7 @@ h3 {
   font-weight: 300;
 }
 
-h4, h5 {
+h2, h4, h5 {
   font-weight: 300;
 }
 
@@ -106,6 +114,21 @@ img.drop-shadow {
 
 .faq-page h4 {
   padding-top: 15px;
+}
+
+.blog-page h2 a {
+  color: $headerFontColor;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.blog-post {
+  padding-bottom: 15px;
+  
+  ul {
+    padding-left: 1.5em;
+  }
 }
 
 #welcome-banner {

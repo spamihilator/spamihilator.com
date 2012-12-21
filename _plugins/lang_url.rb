@@ -11,10 +11,21 @@ module Jekyll
       else
         site = context.registers[:site]
         pages = site.pages
-        otherp = pages.find { |p| p.data["id"] == page["id"] && p.data["lang"] == lang }
-        l = otherp.to_liquid["url"]
-        l = sanitize(l) unless l.nil?
-        l || lang
+        posts = site.posts
+        otherp = pages.find { |p| p.data["uid"] == page["uid"] && p.data["lang"] == lang }
+        if otherp.nil?
+          otherp = posts.find { |p| p.data["uid"] == page["uid"] && p.data["lang"] == lang }
+        end
+        if otherp.nil?
+          abort "Could not find #{lang} site for #{page['url']} with uid #{page['uid']}"
+        else
+          l = otherp.to_liquid["url"]
+          if l.nil?
+            abort "Could not find url to #{lang} site for #{page['url']} with uid #{page['uid']}"
+          else
+            sanitize(l)
+          end
+        end
       end
     end
   end

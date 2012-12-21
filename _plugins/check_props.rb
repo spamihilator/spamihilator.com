@@ -2,7 +2,7 @@ module Jekyll
   class CheckPropsTag < Liquid::Tag
     def render(context)
       page = context.environments.first["page"]
-      check_prop page, "id"
+      check_prop page, "uid"
       check_prop page, "lang"
       ""
     end

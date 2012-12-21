@@ -50,15 +50,14 @@
   </div>
 
   <div class="four columns" id="welcome-news">
-    <h4>Ankündigungen</h4>
+    <h4>{% if page.lang == "de" %}Ankündigungen{% else %}News{% endif %}</h4>
     <ul>
-    <li><a href="#">Spamihilator 1.0 wurde veröffentlicht!</a><br>06.11.2011</li>
-    <li><a href="#">Neue Beta-Version 0.9.9.60 von Spamihilator</a><br>09.10.2011</li>
-    <li><a href="#">Spamihilator Beta-Version 0.9.9.59 öffentlich verfügbar</a><br>31.08.2011</li>
-    <li><a href="#">Spamihilator 0.9.9.53 wurde veröffentlicht!</a><br>31.01.2010</li>
-    <li><a href="#">Spamihilator 0.9.9.52 wurde veröffentlicht!</a><br>23.12.2009</li>
+    {% for p in site.posts limit:10 %}{% if p.lang == page.lang %}
+    <li><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a><br>{{ p | lang_page_date }}</li>
+    {% endif %}{% endfor %}
     </ul>
-    <a href="#">&raquo; Zeige alle Einträge...</a>
+    <a href="{{ site.url }}/{{ page.lang }}/blog">&raquo;
+    {% if page.lang == "de" %}Zeige alle Einträge...{% else %}Show all entries...{% endif %}</a>
   </div>
 
 </div>

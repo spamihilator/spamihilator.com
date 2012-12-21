@@ -1,5 +1,5 @@
 ---
-id: faq
+uid: faq
 lang: en
 title: FAQ
 layout: main

@@ -1,5 +1,5 @@
 ---
-id: support
+uid: support
 title: Support
 lang: en
 layout: main

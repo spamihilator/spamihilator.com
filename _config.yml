@@ -1,4 +1,4 @@
-permalink: /:title
+permalink: /:lang/blog/:title
 pygments: false
 
 # we need kramdown here, since we have markdown in <div> blocks

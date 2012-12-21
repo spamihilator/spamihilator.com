@@ -1,0 +1,23 @@
+{% include header.html %}
+<section id="mainContent">
+<div class="row">
+<div class="twelve columns">
+
+<h2 class="page-title">Blog</h2>
+
+{% for p in site.posts %}{% if p.lang == page.lang %}
+
+<div class="blog-post">
+<h2><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></h2>
+
+<h5 class="subheader">{{ p | lang_page_date }}</h2>
+
+{{ p.content }}
+</div>
+
+{% endif %}{% endfor %}
+
+</div>
+</div>
+</section>
+{% include footer.html %}

@@ -1,0 +1,27 @@
+{% include header.html %}
+<section id="mainContent">
+<div class="row">
+<div class="twelve columns">
+
+<h2 class="page-title">Blog</h2>
+
+<div class="blog-post">
+<h2>{{ page.title }}</h2>
+
+<h5 class="subheader">{{ page | lang_page_date }}</h2>
+
+{{ content }}
+</div>
+
+<p>
+{% if page.lang == "de" %}
+<a href="{{ site.url }}/de/blog">&laquo; zurück zum Blog</a>
+{% else %}
+<a href="{{ site.url }}/en/blog">&laquo; back to the blog</a>
+{% endif %}
+</p>
+
+</div>
+</div>
+</section>
+{% include footer.html %}
