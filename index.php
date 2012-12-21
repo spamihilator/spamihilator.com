@@ -1,11 +1,21 @@
 ---
 ---
 <?php
-$lang = preg_split('/-/', getDefaultLanguage());
+
+$deflang = getDefaultLanguage();
+
+if ($deflang[1] < 0.6) {
+  $lang = array(strtolower(geoip_country_code_by_name($_SERVER['REMOTE_ADDR'])));
+} else {
+  $lang = preg_split('/-/', $deflang[0]);
+}
+
 if (!isset($lang) || count($lang) == 0) {
   $lang = array("en");
 }
-if ($lang[0] == "de") {
+
+header("HTTP/1.1 302 Found");
+if ($lang[0] == "de" || $lang[0] == "at" || $lang[0] == "ch") {
   header("Location: {{ site.url }}/de/");
 } else {
   header("Location: {{ site.url }}/en/");
@@ -26,6 +36,7 @@ function getDefaultLanguage() {
    }
 
 function parseDefaultLanguage($http_accept, $deflang = "en") {
+   $qval = 0.0;
    if(isset($http_accept) && strlen($http_accept) > 1)  {
       # Split possible languages into array
       $x = explode(",",$http_accept);
@@ -38,7 +49,6 @@ function parseDefaultLanguage($http_accept, $deflang = "en") {
       }
 
       #return default language (highest q-value)
-      $qval = 0.0;
       foreach ($lang as $key => $value) {
          if ($value > $qval) {
             $qval = (float)$value;
@@ -46,6 +56,7 @@ function parseDefaultLanguage($http_accept, $deflang = "en") {
          }
       }
    }
-   return strtolower($deflang);
+   //return strtolower($deflang);
+   return array(strtolower($deflang), $qval);
 }
 ?>
