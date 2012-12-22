@@ -112,6 +112,10 @@ img.drop-shadow {
   @include box-shadow(lighten($black, 40%) 2px 2px 10px);
 }
 
+a img {
+  border: none;
+}
+
 .faq-page h4 {
   padding-top: 15px;
 }
