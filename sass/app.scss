@@ -198,6 +198,7 @@ a img {
   height: 47px;
   margin-right: 10px;
   margin-bottom: 10px;
+
   
   img {
     float: left;
@@ -283,4 +284,52 @@ $nav-bar-border-radius: 10px;
 
 .alert-box.alert a {
   color: lighten($mainColor, 35%);
+}
+
+.bigdownloadlink, .bigdl .downloadlink {
+  padding-left: 44px;
+  background-image: url("../images/spamihilatoricon_mid.png");
+  background-position: left 10px;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.downloadlinklink {
+  font-size: 240%;
+}
+
+ul.other-downloads {
+  padding-left: 44px;
+  margin-top: -20px;
+  padding-top: 0;
+  padding-bottom: 15px;
+  
+  display: none;
+  
+  li {
+    margin-left: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+    float: left;
+    border-left: 1px solid #333;
+    line-height: 1em;
+    
+    &.first {
+      border: 0px;
+      padding-left: 0px;
+    }
+  }
+}
+
+.download-social-links {
+  padding-left: 54px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.google-plus-link {
+  padding-left: 54px;
+  margin-top: 0px;
 }

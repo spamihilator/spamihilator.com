@@ -1,0 +1,51 @@
+{% include header.html %}
+
+<section id="mainContent">
+
+<div class="row">
+<div class="eight columns">
+
+<div class="row">
+  <div class="twelve columns">
+  
+  <h3 class="page-title">{% if page.lang == "de" %}Vielen Dank!{% else %}Thanks a lot!{% endif %}</h3>
+  
+  <p>
+  {% if page.lang == "de" %}
+  Danke, dass Sie sich für Spamihilator entschieden haben! Ihr Download startet in wenigen
+  Sekunden. Falls dies nicht passiert, klicken Sie bitte <a href="{{ site.url }}{{ page.downloadlink }}">hier</a>.
+  {% else %}
+  Thank you for downloading Spamihilator! Your download should automatically begin in a few
+  seconds, but if not, <a href="{{ site.url }}{{ page.downloadlink }}">click here</a>.
+  {% endif %}
+  </p>
+  
+  </div>
+</div>
+
+</div>
+<div class="four columns">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1502100978693819";
+/* Spamihilator 2 */
+google_ad_slot = "5286013968";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+
+</section>
+
+<script type="text/javascript">
+  function startDownload() {
+    window.location = "{{ site.url }}{{ page.downloadlink }}";
+  }
+  setTimeout("startDownload()", 2000);
+</script>
+
+{% include footer.html %}
