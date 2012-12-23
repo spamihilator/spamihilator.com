@@ -1,0 +1,24 @@
+{% include header.html %}
+<section id="mainContent">
+<div class="row">
+<div class="twelve columns">
+
+<h2 class="page-title">{{ page.title }}</h2>
+
+{% if page.lang == "de" %}
+<p>Die Spamihilator-Website ist zurzeit in
+Bearbeitung und die Plugins stehen noch nicht zur Verfügung. Wir entschuldigen
+uns für die Unannehmlichkeiten. Bitte haben Sie noch etwas Geduld.</p>
+<p>In der Zwischenzeit können Sie die alte Spamihilator-Website besuchen:<br>
+{% else %}
+<p>We are currently working on the Spamihilator website. The plugins are
+not available yet. We are sorry for the inconvenience. Please stay tuned.</p>
+<p>In the meantime you can visit the old Spamihilator website:<br>
+{% endif %}
+<a href="http://www-old.spamihilator.com/plugins">http://www-old.spamihilator.com/plugins</a>
+</p>
+
+</div>
+</div>
+</section>
+{% include footer.html %}
