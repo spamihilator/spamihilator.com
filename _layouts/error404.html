@@ -14,7 +14,24 @@ $sl = strpos($ru, "/");
 if ($sl !== FALSE)
   $ru = substr($ru, 0, $sl);
 
-if ($ru == "download" || $ru == "about" || $ru == "support") {
+if ($ru == "help") {
+  header("Location: http://wiki.spamihilator.com");
+  exit();
+}
+if ($ru == "forum") {
+  header("Location: http://www-old.spamihilator.com".$_SERVER['REQUEST_URI']);
+  exit();
+}
+if ($ru == "about") {
+  header("HTTP/1.0 301 Moved Permanently");
+  if ($lang == "de") {
+    header("Location: /de/impressum");
+  } else {
+    header("Location: /en/about");
+  }
+  exit();
+}
+if ($ru == "download" || $ru == "support") {
   header("HTTP/1.0 301 Moved Permanently");
   header("Location: /".$lang.$_SERVER['REQUEST_URI']);
   exit();
