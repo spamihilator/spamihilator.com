@@ -6,7 +6,7 @@ module Jekyll
     
     def get_lang_url(context, lang)
       page = context.environments.first["page"]
-      if page["lang"] == lang
+      if page["lang"] == lang || page["nolangurl"]
         sanitize(page["url"])
       else
         site = context.registers[:site]
