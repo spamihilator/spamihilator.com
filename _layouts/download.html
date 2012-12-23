@@ -14,6 +14,8 @@
 <div class="row">
   <div class="twelve columns">
   
+  <h3>{% if page.lang == "de" %}32-Bit-Version (empfohlen){% else %}32-bit Version (recommended){% endif %}</h3>
+  
   <p>
   {% if page.lang == "de" %}
   Bitte klicken Sie auf den folgenden Link, um Spamihilator kostenlos herunterzuladen:
@@ -22,6 +24,7 @@
   {% endif %}
   </p>
   
+  <div class="downloadsection">
   <div class="bigdl">
     <p class="downloadlink">
       <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/win32">Spamihilator 1.5</a><br>
@@ -47,7 +50,68 @@
     {"lang": "{% if page.lang == "de" %}de{% else %}en-US{% endif %}"}
     </script>
     <g:plusone></g:plusone>
-   </p>
+  </p>
+  </div>
+  
+  <h3>{% if page.lang == "de" %}64-Bit-Version{% else %}64-bit Version{% endif %}</h3>
+
+  <p>
+  {% if page.lang == "de" %}
+  Diese Version ist nur für Windows-Systeme mit 64-Bit geeignet. Wenn Sie unsicher sind,
+  ob Sie eine solche Version benötigen, laden Sie die obige 32-Bit-Version herunter.
+  {% else %}
+  This version runs on Windows systems with 64-bit only. If you are unsure whether
+  you need such a version, download the 32-bit version above.
+  {% endif %}
+  </p>
+  
+  <div class="downloadsection">
+  <div class="bigdl">
+    <p class="downloadlink">
+      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/x64">Spamihilator 1.5 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</a><br>
+      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,15 MB{% else %}3.15 MB{% endif %}<br>
+      Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</span>
+    </p>
+  </div>
+  </div>
+  
+  <h3>{% if page.lang == "de" %}Portable Version (ohne Installer){% else %}Portable version (without installer){% endif %}</h3>
+
+  <p>
+  {% if page.lang == "de" %}
+  Die portable Version ist nur für Experten gedacht, die Spamihilator ohne Installationsprogramm
+  ausführen möchten. Eine portable Version kann man z.B. auf einem USB-Stick mitnehmen.
+  Beachten Sie, dass Ihr E-Mail-Programm
+  <a href="http://wiki.spamihilator.com/doku.php?id=de:configclient">richtig konfiguriert</a>
+  sein muss, wenn Sie Spamihilator auf einem anderen System ausführen.
+  {% else %}
+  The portable version is for experts who want to run Spamihilator without an installer.
+  A portable version can be installed on an USB drive, for example. Please make sure
+  your mail client is
+  <a href="http://wiki.spamihilator.com/doku.php?id=de:configclient">configured properly</a>
+  if you run Spamihilator on another system.
+  {% endif %}
+  </p>
+  
+  <div class="downloadsection">
+  <div class="bigdl">
+    <p class="downloadlink">
+      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/win32">Spamihilator 1.5 ({% if page.lang == "de" %}portabel, 32-Bit{% else %}portable, 32-bit{% endif %})</a><br>
+      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,03 MB{% else %}3.03 MB{% endif %}<br>
+      Windows 2000/2003/XP/Vista/7/8</span>
+    </p>
+  </div>
+  <div class="bigdl">
+    <p class="downloadlink">
+      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/x64">Spamihilator 1.5 ({% if page.lang == "de" %}portabel, 64-Bit{% else %}portable, 64-bit{% endif %})</a><br>
+      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,75 MB{% else %}3.75 MB{% endif %}<br>
+      Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</span>
+    </p>
+  </div>
+  </div>
   
   </div>
 </div>
