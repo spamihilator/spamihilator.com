@@ -1,0 +1,29 @@
+<?php
+{% include getlanguage.php %}
+
+$lang = GetLanguage();
+if ($lang == "de" || $lang == "at" || $lang == "ch")
+  $lang = "de";
+else
+  $lang = "en";
+
+$ru = $_SERVER['REQUEST_URI'];
+if ($ru[0] == '/')
+  $ru = substr($ru, 1);
+$sl = strpos($ru, "/");
+if ($sl !== FALSE)
+  $ru = substr($ru, 0, $sl);
+
+if ($ru == "download" || $ru == "about" || $ru == "support") {
+  header("HTTP/1.0 301 Moved Permanently");
+  header("Location: /".$lang.$_SERVER['REQUEST_URI']);
+  exit();
+}
+
+header("HTTP/1.0 404 Not Found");
+?>
+{% include header.html %}
+<section id="mainContent">
+{{ content }}
+</section>
+{% include footer.html %}
