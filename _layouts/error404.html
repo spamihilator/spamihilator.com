@@ -8,32 +8,56 @@ else
   $lang = "en";
 
 $ru = $_SERVER['REQUEST_URI'];
-if ($ru[0] == '/')
+$ruorg = $ru;
+while ($ru[0] == '/')
   $ru = substr($ru, 1);
 $sl = strpos($ru, "/");
+$q = strpos($ru, "?");
+if ($sl === FALSE || ($q !== FALSE && $q < $sl))
+  $sl = $q;
 if ($sl !== FALSE)
   $ru = substr($ru, 0, $sl);
 
+if ($ruorg == "/en/download/1/") {
+  header("HTTP/1.0 301 Moved Permanently");
+  header("Location: http://www.spamihilator.com/en/download/spamihilator/1.5/win32");
+  exit();
+}
+if ($ruorg == "/de/download/1/") {
+  header("HTTP/1.0 301 Moved Permanently");
+  header("Location: http://www.spamihilator.com/de/download/spamihilator/1.5/win32");
+  exit();
+}
+if ($ru == "lang-pref" || $ru == "lang") {
+  $l = preg_replace('/^\/?lang(-pref)?\//', '', $ruorg);
+  header("HTTP/1.0 301 Moved Permanently");
+  header("Location: {{ site.url }}/".$l);
+  exit();
+}
 if ($ru == "help") {
   header("Location: http://wiki.spamihilator.com");
   exit();
 }
 if ($ru == "forum") {
-  header("Location: http://www-old.spamihilator.com".$_SERVER['REQUEST_URI']);
+  header("Location: http://www-old.spamihilator.com".$ruorg);
+  exit();
+}
+if ($ru == "plugins") {
+  header("Location: http://www-old.spamihilator.com".$ruorg);
   exit();
 }
 if ($ru == "about") {
   header("HTTP/1.0 301 Moved Permanently");
   if ($lang == "de") {
-    header("Location: /de/impressum");
+    header("Location: {{ site.url }}/de/impressum");
   } else {
-    header("Location: /en/about");
+    header("Location: {{ site.url }}/en/about");
   }
   exit();
 }
-if ($ru == "download" || $ru == "support") {
+if ($ru == "blog" || $ru == "download" || $ru == "support") {
   header("HTTP/1.0 301 Moved Permanently");
-  header("Location: /".$lang.$_SERVER['REQUEST_URI']);
+  header("Location: {{ site.url }}/".$lang.$ruorg);
   exit();
 }
 
