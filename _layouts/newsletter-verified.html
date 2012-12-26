@@ -12,11 +12,11 @@
   
   <p>
   {% if page.lang == "de" %}
-  Danke, dass Sie sich für Spamihilator entschieden haben! Ihr Download startet in wenigen
-  Sekunden. Falls dies nicht passiert, klicken Sie bitte <a href="{{ site.url }}{{ page.downloadlink }}">hier</a>.
+  Danke, dass Sie sich für den Spamihilator-Newsletter angemeldet haben! Ihre
+  E-Mail-Adresse wurde erfolgreich verifiziert.
   {% else %}
-  Thank you for downloading Spamihilator! Your download should automatically begin in a few
-  seconds, but if not, <a href="{{ site.url }}{{ page.downloadlink }}">click here</a>.
+  Thank you for signing up to the Spamihilator Newsletter! Your email address
+  has been verified successfully.
   {% endif %}
   </p>
   
@@ -39,15 +39,6 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </div>
 </div>
 
-{% include newsletter-box.html %}
-
 </section>
-
-<script type="text/javascript">
-  function startDownload() {
-    window.location = "{{ site.url }}{{ page.downloadlink }}";
-  }
-  setTimeout("startDownload()", 2000);
-</script>
 
 {% include footer.html %}

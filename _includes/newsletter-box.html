@@ -1,0 +1,36 @@
+<div class="row" ng-app="newsletter" id="newsletter-box" style="display: none">
+<div class="twelve columns">
+<div ng-controller="NewsletterCtrl">
+<div class="panel" ng-init="lang='{{ page.lang }}'">
+
+<h3>Newsletter</h3>
+<h5 class="subheader" ng-hide="successOrErrorMessage()">
+{% if page.lang == "de" %}Melden Sie sich zu unserem kostenlosen Newsletter an,
+um stets alle News zu Spamihilator zu erhalten
+{% else %}Sign up to our free newsletter to receive latest news about Spamihilator{% endif %}</h5>
+<h5 class="subheader error" ng-show="errorMessage" ng-hide="successMessage">{% raw %}{{errorMessage}}{% endraw %}</h5>
+<h5 class="subheader successful" ng-show="successMessage" ng-hide="errorMessage">{% raw %}{{successMessage}}{% endraw %}</h5>
+
+<form name="newsletterForm" ng-submit="save()">
+<div class="row collapse">
+  <div class="ten columns">
+    <input type="text" ng-model="address" ng-disabled="disabled" class="ng-class: {saving: saving};"
+      placeholder="{% if page.lang == "de" %}Geben Sie hier Ihre E-Mail-Adresse ein{% else %}Enter your mail address here{% endif %}" required>
+  </div>
+  <div class="two columns">
+    <input type="submit" class="success button expand postfix" ng-disabled="disabled" value="{% raw %}{{buttonValue()}}{% endraw %}">
+  </div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-resource.min.js"></script>
+<script src="{{ site.url }}/scripts/newsletter.js"></script>
+<script src="{{ site.url }}/scripts/address.js"></script>
+
+{% assign additional_footer_elements="<script type='text/javascript'>$(document).ready(function() { $('#newsletter-box').show(); });</script>" %}

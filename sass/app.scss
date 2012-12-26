@@ -99,6 +99,16 @@ h2, h4, h5 {
   font-family: $bodyFontFamily;
 }
 
+.error {
+  color: $alertColor;
+  font-weight: bold;
+}
+
+.successful {
+  color: $successColor;
+  font-weight: bold;
+}
+
 .padding-top-like-header {
   padding-top: 14px;
 }
@@ -106,6 +116,17 @@ h2, h4, h5 {
 .main-logo {
   max-height: 66px;
   margin-top: 10px;
+}
+
+#newsletter-box {
+  margin-top: 15px;
+  
+  .saving {
+    background-image: url("../images/6-1.gif");
+    background-position: 99% 50%;
+    background-repeat: no-repeat;
+    @include transition-duration(0s);
+  }
 }
 
 img.drop-shadow {
