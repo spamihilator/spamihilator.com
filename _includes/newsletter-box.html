@@ -1,24 +1,43 @@
+{% unless signout %}
+{% assign signout = false %}
+{% endunless %}
 <div class="row" ng-app="newsletter" id="newsletter-box" style="display: none">
 <div class="twelve columns">
 <div ng-controller="NewsletterCtrl">
-<div class="panel" ng-init="lang='{{ page.lang }}'">
+<div class="panel" ng-init="lang='{{ page.lang }}'; signout={{ signout }}; initSignout()">
 
 <h3>Newsletter</h3>
 <h5 class="subheader" ng-hide="successOrErrorMessage()">
-{% if page.lang == "de" %}Melden Sie sich zu unserem kostenlosen Newsletter an,
-um stets alle News zu Spamihilator zu erhalten
-{% else %}Sign up to our free newsletter to receive latest news about Spamihilator{% endif %}</h5>
+{% if signout %}
+  {% if page.lang == "de" %}
+    Geben Sie hier Ihre E-Mail-Adresse ein, um sich vom Spamihilator-Newsletter abzumelden
+  {% else %}
+    Please enter your email address to sign out from the Spamihilator Newsletter
+  {% endif %}
+{% else %}
+  {% if page.lang == "de" %}
+    Melden Sie sich zu unserem kostenlosen Newsletter an,
+    um stets alle News zu Spamihilator zu erhalten
+  {% else %}
+    Sign up to our free newsletter to receive latest news about Spamihilator
+  {% endif %}
+{% endif %}
+</h5>
 <h5 class="subheader error" ng-show="errorMessage" ng-hide="successMessage">{% raw %}{{errorMessage}}{% endraw %}</h5>
 <h5 class="subheader successful" ng-show="successMessage" ng-hide="errorMessage">{% raw %}{{successMessage}}{% endraw %}</h5>
 
-<form name="newsletterForm" ng-submit="save()">
+<form name="newsletterForm" ng-submit="{% if signout %}delete(){% else %}save(){% endif %}">
 <div class="row collapse">
   <div class="ten columns">
     <input type="text" ng-model="address" ng-disabled="disabled" class="ng-class: {saving: saving};"
       placeholder="{% if page.lang == "de" %}Geben Sie hier Ihre E-Mail-Adresse ein{% else %}Enter your mail address here{% endif %}" required>
   </div>
   <div class="two columns">
+    {% if signout %}
+    <input type="submit" class="alert button expand postfix" ng-disabled="disabled" value="{% raw %}{{buttonValue()}}{% endraw %}">
+    {% else %}
     <input type="submit" class="success button expand postfix" ng-disabled="disabled" value="{% raw %}{{buttonValue()}}{% endraw %}">
+    {% endif %}
   </div>
 </div>
 </form>
