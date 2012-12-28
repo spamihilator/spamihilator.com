@@ -4,6 +4,7 @@ module Jekyll
       page = context.environments.first["page"]
       check_prop page, "uid"
       check_prop page, "lang"
+      check_prop page, "title"
       ""
     end
     

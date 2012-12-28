@@ -1,6 +1,6 @@
 ---
 uid: support
-title: Support
+title: Spamihilator Support Area
 lang: en
 layout: main
 ---

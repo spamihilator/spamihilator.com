@@ -1,6 +1,6 @@
 ---
 layout: error404
-title: 404
+title: 404 Not Found
 uid: 404
 lang: en
 nolangurl: true

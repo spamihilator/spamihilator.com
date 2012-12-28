@@ -1,7 +1,7 @@
 ---
 uid: faq
 lang: de
-title: FAQ
+title: Spamihilator-FAQ
 layout: main
 ---
 
