@@ -29,9 +29,21 @@
 
 <script src="{{ site.url }}/scripts/foundation/jquery.js"></script>
 <script src="{{ site.url }}/scripts/foundation/app.js"></script>
+{% if page.hasTabs == true %}
+<script src="{{ site.url }}/scripts/foundation/jquery.foundation.forms.js"></script>
+<script src="{{ site.url }}/scripts/foundation/jquery.foundation.tabs.js"></script>
+{% endif %}
 <script src="{{ site.url }}/scripts/jquery.smooth-scroll.min.js"></script>
 <script src="{{ site.url }}/scripts/jquery.ba-bbq.min.js"></script>
 <script src="{{ site.url }}/scripts/main.js"></script>
+
+{% if page.hasTabs == true %}
+<script type="text/javascript">
+$(document).ready(function() {
+  $(document).foundationTabs();
+});
+</script>
+{% endif %}
 
 {% check_props %}{% project_honeypot %}{{ additional_footer_elements }}
 
