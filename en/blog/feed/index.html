@@ -1,0 +1,40 @@
+---
+title: Spamihilator RSS feed
+uid: feed
+lang: en
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Spamihilator - Anti-Spam-Filter</title>
+	<atom:link href="{{ site.canonicalurl }}/de/blog/feed" rel="self" type="application/rss+xml" />
+	<link>{{ site.canonicalurl }}/en/blog</link>
+	<description>The free Anti-Spam-Filter Spamihilator removes more than 98% of spam mails before they even get into your inbox</description>
+	<lastBuildDate>{{ site.time }}</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	{% for post in site.posts %}
+	{% if post.lang == "en" %}
+	<item>
+		<title>{{ post.title }}</title>
+		<link>{{ site.canonicalurl }}{{ post.url }}</link>
+		<comments>{{ site.canonicalurl }}{{ post.url }}#comments</comments>
+		<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+		<dc:creator>Michel Krämer</dc:creator>
+		<guid isPermaLink="true">{{ site.canonicalurl }}{{ post.url }}</guid>
+		<description><![CDATA[{{ post.content | abstract }}]]></description>
+		<content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+	</item>
+	{% endif %}
+	{% endfor %}
+</channel>
+</rss>
