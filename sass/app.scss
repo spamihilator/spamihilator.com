@@ -211,7 +211,7 @@ a img {
   margin: 60px 0px 40px 0px;
 }
 
-#welcome-banner-download-button {
+#download-button {
   padding: 10px 12px;
   font-size: 130%;
   font-weight: normal;
@@ -227,7 +227,7 @@ a img {
   }
 }
 
-#welcome-banner-download-notes {
+#download-notes {
   line-height: 1.4em;
   padding-top: 3px;
   li {
@@ -311,54 +311,21 @@ $nav-bar-border-radius: 10px;
   color: lighten($mainColor, 35%);
 }
 
-.bigdownloadlink, .bigdl .downloadlink {
-  padding-left: 44px;
-  background-image: url("../images/spamihilatoricon_mid.png");
-  background-position: left 10px;
-  background-repeat: no-repeat;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  margin-left: 10px;
-}
-
-.downloadlinklink {
-  font-size: 240%;
-}
-
-ul.other-downloads {
-  padding-left: 44px;
-  margin-top: -20px;
-  padding-top: 0;
-  padding-bottom: 15px;
-  
-  display: none;
-  
-  li {
-    margin-left: 10px;
-    padding-left: 10px;
-    list-style-type: none;
-    float: left;
-    border-left: 1px solid #333;
-    line-height: 1em;
-    
-    &.first {
-      border: 0px;
-      padding-left: 0px;
-    }
-  }
-}
-
 .download-social-links {
-  padding-left: 54px;
-  margin-top: 5px;
+  margin-top: 7px;
   margin-bottom: 5px;
 }
 
 .google-plus-link {
-  padding-left: 54px;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .downloadsection {
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.download-page .tabs-content h3, .download-page .tabs-content h5 {
+  font-weight: 400;
 }

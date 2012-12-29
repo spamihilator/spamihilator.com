@@ -21,33 +21,31 @@
   <ul class="tabs-content contained">
   <li class="active" id="32bitTab">
   
-  <h3>{% if page.lang == "de" %}32-Bit-Version (empfohlen){% else %}32-bit Version (recommended){% endif %}</h3>
+  <h3>Spamihilator 1.5</h3>
   
   <p>
   {% if page.lang == "de" %}
-  Bitte klicken Sie auf den folgenden Link, um Spamihilator kostenlos herunterzuladen:
+  Bitte klicken Sie auf den folgenden Button, um Spamihilator kostenlos herunterzuladen:
   {% else %}
-  Please use the following link to download Spamihilator for free:
+  Please use the following button to download Spamihilator for free:
   {% endif %}
   </p>
   
   <div class="downloadsection">
-  <div class="bigdl">
-    <p class="downloadlink">
-      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/win32">Spamihilator 1.5</a><br>
-      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
-      {% if page.lang == "de" %}2,29 MB{% else %}2.29 MB{% endif %}<br>
-      Windows 2000/2003/XP/Vista/7/8</span>
-    </p>
+  <a href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/win32" class="radius button left" id="download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download now{% endif %}</a>
+  <ul id="download-notes">
+     <li>{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}2,29 MB{% else %}2.29 MB{% endif %}</li>
+     <li>Windows 2000/2003/XP/Vista/7/8</li>
+  </ul>
   </div>
   
   {% include download-social-links.html %}
-  </div>
   
   </li>
   <li id="64bitTab">
   
-  <h3>{% if page.lang == "de" %}64-Bit-Version{% else %}64-bit Version{% endif %}</h3>
+  <h3>Spamihilator 1.5 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</h3>
 
   <p>
   {% if page.lang == "de" %}
@@ -63,22 +61,21 @@
   </p>
   
   <div class="downloadsection">
-  <div class="bigdl">
-    <p class="downloadlink">
-      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/x64">Spamihilator 1.5 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</a><br>
-      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
-      {% if page.lang == "de" %}3,15 MB{% else %}3.15 MB{% endif %}<br>
-      Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</span>
-    </p>
+  <a href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/x64" class="radius button left" id="download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download now{% endif %}</a>
+  <ul id="download-notes">
+     <li>{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,15 MB{% else %}3.15 MB{% endif %}</li>
+     <li>Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</li>
+  </ul>
   </div>
   
   {% include download-social-links.html %}
-  </div>
   
   </li>
   <li id="portable32bitTab">
   
-  <h3>{% if page.lang == "de" %}Portable Version (ohne Installer){% else %}Portable version (without installer){% endif %}</h3>
+  <h3>Spamihilator 1.5</h3>
+  <h5 class="subheader">{% if page.lang == "de" %}Portable Version (ohne Installer){% else %}Portable version (without installer){% endif %}</h5>
 
   <p>
   {% if page.lang == "de" %}
@@ -97,22 +94,21 @@
   </p>
   
   <div class="downloadsection">
-  <div class="bigdl">
-    <p class="downloadlink">
-      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/win32">Spamihilator 1.5 ({% if page.lang == "de" %}portabel{% else %}portable{% endif %})</a><br>
-      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
-      {% if page.lang == "de" %}3,03 MB{% else %}3.03 MB{% endif %}<br>
-      Windows 2000/2003/XP/Vista/7/8</span>
-    </p>
+  <a href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/win32" class="radius button left" id="download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download now{% endif %}</a>
+  <ul id="download-notes">
+     <li>{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,03 MB{% else %}3.03 MB{% endif %}</li>
+     <li>Windows 2000/2003/XP/Vista/7/8</li>
+  </ul>
   </div>
   
   {% include download-social-links.html %}
-  </div>
   
   </li>
   <li id="portable64bitTab">
   
-  <h3>{% if page.lang == "de" %}Portable Version (ohne Installer, 64-Bit){% else %}Portable version (without installer, 64-bit){% endif %}</h3>
+  <h3>Spamihilator 1.5 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</h3>
+  <h5 class="subheader">{% if page.lang == "de" %}Portable Version (ohne Installer){% else %}Portable version (without installer){% endif %}</h5>
 
   <p>
   {% if page.lang == "de" %}
@@ -144,17 +140,15 @@
   </p>
   
   <div class="downloadsection">
-  <div class="bigdl">
-    <p class="downloadlink">
-      <a class="downloadlinklink" href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/x64">Spamihilator 1.5 ({% if page.lang == "de" %}portabel, 64-Bit{% else %}portable, 64-bit{% endif %})</a><br>
-      <span class="small">{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
-      {% if page.lang == "de" %}3,75 MB{% else %}3.75 MB{% endif %}<br>
-      Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</span>
-    </p>
+  <a href="{{ site.url }}/{{ page.lang }}/download/spamihilator/1.5/portable/x64" class="radius button left" id="download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download now{% endif %}</a>
+  <ul id="download-notes">
+     <li>{% if page.lang == "de" %}23. Dezember 2012{% else %}December 23, 2012{% endif %} |
+      {% if page.lang == "de" %}3,75 MB{% else %}3.75 MB{% endif %}</li>
+     <li>Windows 2000/2003/XP/Vista/7/8 ({% if page.lang == "de" %}64-Bit{% else %}64-bit{% endif %})</li>
+  </ul>
   </div>
   
   {% include download-social-links.html %}
-  </div>
   
   </li>
   </ul>
