@@ -1,0 +1,242 @@
+{% include header.html %}
+
+<section id="mainContent">
+
+<div class="row">
+<div class="twelve columns">
+<h3 class="page-title">{% if page.lang == "de" %}Sprachpakete{% else %}Language packs{% endif %}</h3>
+
+<dl class="tabs contained">
+    <dd class="active"><a href="langpacks">
+    {% if page.lang == "de" %}Sprachpakete herunterladen{% else %}Download language packs{% endif %}
+    </a></dd>
+</dl>
+<ul class="tabs-content contained">
+<li class="active" id="langpacksTab">
+
+<h3>{% if page.lang == "de" %}Sprachpaket{% else %}Language pack{% endif %} #1038</h3>
+  
+<p>
+{% if page.lang == "de" %}
+Installieren Sie das folgende Paket, um Spamihilator in Ihrer
+Sprache zu benutzen:
+{% else %}
+Install the following package to use Spamihilator in your language:
+{% endif %}
+</p>
+
+<div class="downloadsection">
+<a href="{{ site.url }}/{{ page.lang }}/download/{% if page.lang == "de" %}sprachpakete{% else %}language-packs{% endif %}/1038" class="radius button left" id="download-button"><img src="{{ site.url }}/images/download-arrow.png"> {% if page.lang == 'de' %}Herunterladen{% else %}Download now{% endif %}</a>
+<ul id="download-notes">
+   <li>{% if page.lang == "de" %}18. April 2010{% else %}April 18, 2010{% endif %} |
+    {% if page.lang == "de" %}364 KB{% else %}364 KB{% endif %}</li>
+   <li>{% if page.lang == "de" %}30 Sprachen{% else %}30 languages{% endif %}</li>
+</ul>
+</div>
+
+<p>{% if page.lang == "de" %}Das Sprachpaket enthält folgende Sprachen:{% else %}The language pack contains the following languages:{% endif %}</p>
+
+<div class="row">
+<div class="six columns">
+
+<dl class="language-list">
+<dt style="background-image: url('{{ site.url }}/images/flags/br2.gif')">
+  Breton{% if page.lang == "de" %} (Bretonisch){% endif %}
+</dt>
+<dd>
+  Fulup Jakez
+</dt>
+<dt style="background-image: url('{{ site.url }}/images/flags/bg.png')">
+  Bulgarian{% if page.lang == "de" %} (Bulgarisch){% endif %}
+</dt>
+<dd>
+  Peter Sabev
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/catalonia.png')">
+  Catalan{% if page.lang == "de" %} (Katalonisch){% endif %}
+</dt>
+<dd>
+  Àngel Pérez Beroy
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/cn.png')">
+  Chinese{% if page.lang == "de" %} (Chinesisch){% endif %}
+</dt>
+<dd>
+  Bora
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/tw.png')">
+  Chinese, Traditional{% if page.lang == "de" %} (Chinesisch, Traditionell){% endif %}
+</dt>
+<dd>
+  Robert Chiang
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/cz.png')">
+  Czech{% if page.lang == "de" %} (Tschechisch){% endif %}
+</dt>
+<dd>
+  Radek &quot;Wysky&quot; Vyskala
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/dk.png')">
+  Danish{% if page.lang == "de" %} (Dänisch){% endif %}
+</dt>
+<dd>
+  Flemming Sørvin
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/nl.png')">
+  Dutch{% if page.lang == "de" %} (Niederländisch){% endif %}
+</dt>
+<dd>
+  Patric van de Pol
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/ee.png')">
+  Estonian ({% if page.lang == "de" %}Estonisch, {% endif %}Eesti keel)
+</dt>
+<dd>
+  Kaupo Suviste
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/fi.png')">
+  Finnish ({% if page.lang == "de" %}Finnisch, {% endif %}Suomi)
+</dt>
+<dd>
+  Yodakoski
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/fr.png')">
+  French ({% if page.lang == "de" %}Französisch, {% endif %}Français)
+</dt>
+<dd>
+  Michael Murat
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/fr.png')">
+  French ({% if page.lang == "de" %}Französisch, {% endif %}Français)
+</dt>
+<dd>
+  Daniel Bertrand
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/fr.png')">
+  French ({% if page.lang == "de" %}Französisch, {% endif %}Français)
+</dt>
+<dd>
+  Pascal Vailly
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/gr.png')">
+  Greek{% if page.lang == "de" %} (Griechisch){% endif %}
+</dt>
+<dd>
+  Stelios Skouletakis
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/il.png')">
+  Hebrew{% if page.lang == "de" %} (Hebräisch){% endif %}
+</dt>
+<dd>
+  Yaron Shahrabani
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/hu.png')">
+  Hungarian ({% if page.lang == "de" %}Ungarisch{% else %}Magyar{% endif %})
+</dt>
+<dd>
+  Ihász Rudolf and Károly Kalmár
+</dd>
+</dl>
+
+</div>
+<div class="six columns">
+
+<dl class="language-list">
+<dt style="background-image: url('{{ site.url }}/images/flags/id.png')">
+  Indonesian{% if page.lang == "de" %} (Indonesisch){% endif %}
+</dt>
+<dd>
+  Permata Harahap
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/it.png')">
+  Italian{% if page.lang == "de" %} (Italienisch){% endif %}
+</dt>
+<dd>
+  Andrea Solari and Massimo Lucchi
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/lv.png')">
+  Latvian{% if page.lang == "de" %} (Lettisch){% endif %}
+</dt>
+<dd>
+  Juris Hasjanovs
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/no.png')">
+  Norwegian ({% if page.lang == "de" %}Norwegisch, {% endif %}Norsk)
+</dt>
+<dd>
+  Knut Vidar Evensen
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/pl.png')">
+  Polish ({% if page.lang == "de" %}Polnisch, {% endif %}Polski)
+</dt>
+<dd>
+  Artur Kusznieruk and Piotr Kwiliñski
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/br.png')">
+  Portuguese, Brazil ({% if page.lang == "de" %}Portugiesisch, Brasilien{% else %}Português{% endif %})
+</dt>
+<dd>
+  Technical
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/ro.png')">
+  Romanian{% if page.lang == "de" %} (Rumänisch){% endif %}
+</dt>
+<dd>
+  Luigi Contrino
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/ru.png')">
+  Russian{% if page.lang == "de" %} (Russisch){% endif %}
+</dt>
+<dd>
+  Alexey Agafonov
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/sk.png')">
+  Slovak{% if page.lang == "de" %} (Slovakisch){% endif %}
+</dt>
+<dd>
+  Lumír
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/si.png')">
+  Slovenian{% if page.lang == "de" %} (Slowenisch){% endif %}
+</dt>
+<dd>
+  Mirko Ficko
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/es.png')">
+  Spanish ({% if page.lang == "de" %}Spanisch, {% endif %}Español)
+</dt>
+<dd>
+  Tony
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/se.png')">
+  Swedish ({% if page.lang == "de" %}Schwedisch, {% endif %}Svenska)
+</dt>
+<dd>
+  Bernt Sjöström
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/tr.png')">
+  Turkish{% if page.lang == "de" %} (Türkisch){% endif %}
+</dt>
+<dd>
+  H. Özgür Derman
+</dd>
+<dt style="background-image: url('{{ site.url }}/images/flags/vn.png')">
+  Vietnamese{% if page.lang == "de" %} (Vietnamesisch){% endif %}
+</dt>
+<dd>
+  Quang Anh
+</dd>
+</dl>
+
+</div>
+</div>
+
+</li>
+</ul>
+
+</div>
+</div>
+
+</section>
+
+{% include footer.html %}

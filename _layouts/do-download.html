@@ -1,5 +1,11 @@
 {% include header.html %}
 
+{% if page.downloadtitle %}
+{% assign downloadtitle = page.downloadtitle %}
+{% else %}
+{% assign downloadtitle = "Spamihilator" %}
+{% endif %}
+
 <section id="mainContent">
 
 <div class="row">
@@ -12,10 +18,10 @@
   
   <p>
   {% if page.lang == "de" %}
-  Danke, dass Sie sich für Spamihilator entschieden haben! Ihr Download startet in wenigen
+  Danke, dass Sie sich für {{ downloadtitle }} entschieden haben! Ihr Download startet in wenigen
   Sekunden. Falls dies nicht passiert, klicken Sie bitte <a href="{{ site.url }}{{ page.downloadlink }}">hier</a>.
   {% else %}
-  Thank you for downloading Spamihilator! Your download should automatically begin in a few
+  Thank you for downloading {{ downloadtitle }}! Your download should automatically begin in a few
   seconds, but if not, <a href="{{ site.url }}{{ page.downloadlink }}">click here</a>.
   {% endif %}
   </p>

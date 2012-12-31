@@ -326,6 +326,31 @@ $nav-bar-border-radius: 10px;
   padding-bottom: 30px;
 }
 
-.download-page .tabs-content h3, .download-page .tabs-content h5 {
+.download-page .tabs-content h3, .download-page .tabs-content h5,
+.langpacks-page .tabs-content h3, .langpacks-page .tabs-content h5 {
   font-weight: 400;
+}
+
+dl.language-list {
+  line-height: 1.8em;
+  
+  dt {
+    font-weight: bold;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+  }
+  
+  dd {
+    padding-left: 20px;
+    
+    &:before {
+      content: ", ";
+    }
+  }
+}
+
+dl.tabs.no-buttons {
+  height: 10px;
 }
