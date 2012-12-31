@@ -21,11 +21,22 @@ if ($sl !== FALSE)
 $permanent = array(
   "^/en/download/1/?$" => "{{ site.url }}/en/download/spamihilator/1.5/win32",
   "^/de/download/1/?$" => "{{ site.url }}/de/download/spamihilator/1.5/win32",
+  "^/en/download/5/?$" => "{{ site.url }}/en/download/spamihilator/1.5/x64",
+  "^/de/download/5/?$" => "{{ site.url }}/de/download/spamihilator/1.5/x64",
+  "^/en/download/3/?$" => "{{ site.url }}/en/download/language-packs/1038",
+  "^/de/download/3/?$" => "{{ site.url }}/de/download/sprachpakete/1038",
+  
   "^/lang(-pref)?/" => "{{ site.url }}/",
-  "^/(blog|download|faq|support)" => "{{ site.url }}/$lang/$1",
+  "^/(blog|download|faq|langpacks|support)" => "{{ site.url }}/$lang/$1",
   "^/download(64bit|msi)" => "{{ site.url }}/$lang/download",
   "^/en/download/index.php" => "{{ site.url }}/en/download",
   "^/de/download/index.php" => "{{ site.url }}/de/download",
+  "^/en/download/langpacks" => "{{ site.url }}/en/download/language-packs",
+  "^/de/download/langpacks" => "{{ site.url }}/de/download/sprachpakete",
+  "^/en/langpacks" => "{{ site.url }}/en/download/language-packs",
+  "^/de/langpacks" => "{{ site.url }}/de/download/sprachpakete",
+  "^/spamihilator.xml" => "http://repository.appvisor.com/info/app-e000a00db4c4",
+  "^/pix/" => "{{ site.url }}/images/",
   
   "^/en/blog/55" => "{{ site.url }}/en/blog/spamihilator-0.9.9-has-been-released",
   "^/en/blog/57" => "{{ site.url }}/en/blog/spamihilator-0.9.9.10-has-been-released",
