@@ -1,5 +1,9 @@
 ---
 ---
+<?php
+header('Vary: Accept-Encoding');
+header('Content-Type: application/javascript; charset=UTF-8');
+?>
 var detectLanguageBrowserLang = "<?php
 {% include getlanguage.php %}
 $lang = GetLanguage();
