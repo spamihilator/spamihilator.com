@@ -37,6 +37,27 @@
 <script src="{{ site.url }}/scripts/jquery.ba-bbq.min.js"></script>
 <script src="{{ site.url }}/scripts/main.js"></script>
 
+<div id="language-switcher-popup">
+{% if page.lang == "de" %}
+<a href="{{ site.url }}/{% lang_url_english %}">
+<img src="{{ site.url }}/images/flags/gb.png">
+<img src="{{ site.url }}/images/flags/us.png">
+Switch to english website ...</a>
+{% else %}
+<a href="{{ site.url }}/{% lang_url_german %}">
+<img src="{{ site.url }}/images/flags/de.png">
+Zur deutschen Seite wechseln ...</a>
+{% endif %}
+</div>
+<script type="text/javascript" src="{{ site.url }}/scripts/detect-language.php"></script>
+<script type="text/javascript">
+var detectLanguagePageLang = "{{ page.lang }}";
+if ((detectLanguagePageLang == "de" && detectLanguageBrowserLang == "en") ||
+    (detectLanguagePageLang == "en" && detectLanguageBrowserLang == "de")) {
+  $("#language-switcher-popup").delay(2000).animate({bottom:"5px"},800);
+}
+</script>
+
 {% if page.hasTabs == true %}
 <script type="text/javascript">
 $(document).ready(function() {

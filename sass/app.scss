@@ -354,3 +354,16 @@ dl.language-list {
 dl.tabs.no-buttons {
   height: 10px;
 }
+
+#language-switcher-popup {
+  position: fixed;
+  display: block;
+  right: 5px;
+  bottom: -100px;
+  background-color: white;
+  border: 1px solid #666;
+  width: 180px;
+  padding: 10px;
+  z-index: 9999;
+  @include box-shadow(lighten($black, 40%) 1px 1px 5px);
+}
