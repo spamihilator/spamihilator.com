@@ -21,6 +21,10 @@
 #
 #
 
+# This file is released under the MIT license. It has been slightly
+# changed by Michel Kraemer. The original file can be found here:
+# https://github.com/imathis/octopress
+
 require 'pathname'
 #require './plugins/octopress_filters'
 
