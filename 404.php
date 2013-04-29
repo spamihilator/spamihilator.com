@@ -14,9 +14,3 @@ nolangurl: true
 problem persists, please <a href="{{ site.url }}/en/about">contact us</a>.</p>
 </div>
 </div>
-
-<?php
-$s = print_r($_SERVER, true);
-mail("michel@spamihilator.com", "404: " . $_SERVER['REQUEST_URI'], $_SERVER['REQUEST_URI'] . "\n\n" . $s, "From: Spamihilator Website <noreply@spamihilator.com>");
-?>
-
