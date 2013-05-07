@@ -11,7 +11,7 @@ GitHub repository:
 
 <https://github.com/michel-kraemer/spamihilator.com>
 
-Everyone is invited to make contributions. We are open for all kind
+Everyone is invited to make contributions. We are open to all kind
 of changes. You may submit new content (e.g. FAQ), change the design or
 style, etc.
 
@@ -20,5 +20,5 @@ pull requests. Further instructions can be found in the [README file](https://gi
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />
 If not noted otherwise the files in the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spamihilator website</span>
-repository by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.michel-kraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Kr‰mer</a>
+repository by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.michel-kraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Kr√§mer</a>
 are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
