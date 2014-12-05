@@ -19,13 +19,13 @@ if ($sl !== FALSE)
   $ru = substr($ru, 0, $sl);
 
 $permanent = array(
-  "^/en/download/1/?$" => "{{ site.url }}/en/download/spamihilator/1.5/win32",
-  "^/de/download/1/?$" => "{{ site.url }}/de/download/spamihilator/1.5/win32",
-  "^/en/download/5/?$" => "{{ site.url }}/en/download/spamihilator/1.5/x64",
-  "^/de/download/5/?$" => "{{ site.url }}/de/download/spamihilator/1.5/x64",
+  "^/en/download/1/?$" => "{{ site.url }}/en/download/spamihilator/1.6/win32",
+  "^/de/download/1/?$" => "{{ site.url }}/de/download/spamihilator/1.6/win32",
+  "^/en/download/5/?$" => "{{ site.url }}/en/download/spamihilator/1.6/x64",
+  "^/de/download/5/?$" => "{{ site.url }}/de/download/spamihilator/1.6/x64",
   "^/en/download/3/?$" => "{{ site.url }}/en/download/language-packs/1038",
   "^/de/download/3/?$" => "{{ site.url }}/de/download/sprachpakete/1038",
-  
+
   "^/lang(-pref)?/" => "{{ site.url }}/",
   "^/(blog|download|faq|langpacks|support)" => "{{ site.url }}/$lang/$1",
   "^/download(64bit|msi)" => "{{ site.url }}/$lang/download",
@@ -37,7 +37,7 @@ $permanent = array(
   "^/de/langpacks" => "{{ site.url }}/de/download/sprachpakete",
   "^/spamihilator.xml" => "http://repository.appvisor.com/info/app-e000a00db4c4",
   "^/pix/" => "{{ site.url }}/images/",
-  
+
   "^/en/blog/55" => "{{ site.url }}/en/blog/spamihilator-0.9.9-has-been-released",
   "^/en/blog/57" => "{{ site.url }}/en/blog/spamihilator-0.9.9.10-has-been-released",
   "^/en/blog/59" => "{{ site.url }}/en/blog/spamihilator-0.9.9.27-has-been-released",
@@ -55,7 +55,7 @@ $permanent = array(
   "^/en/blog/359" => "{{ site.url }}/en/blog/spamihilator-beta-version-0.9.9.59-publicly-available",
   "^/en/blog/379" => "{{ site.url }}/en/blog/new-spamihilator-beta-version-0.9.9.60",
   "^/en/blog/389" => "{{ site.url }}/en/blog/spamihilator-1.0-has-been-released",
-  
+
   "^/de/blog/55" => "{{ site.url }}/de/blog/spamihilator-0.9.9-wurde-veroeffentlicht",
   "^/de/blog/57" => "{{ site.url }}/de/blog/spamihilator-0.9.9.10-wurde-veroeffentlicht",
   "^/de/blog/59" => "{{ site.url }}/de/blog/spamihilator-0.9.9.27-wurde-veroeffentlicht",
