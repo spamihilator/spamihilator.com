@@ -15,7 +15,7 @@ function getLanguage() {
 }
 
 #########################################################
-# Copyright © 2008 Darrin Yeager                        #
+# Copyright (c) 2008 Darrin Yeager                      #
 # http://www.dyeager.org/                               #
 # Licensed under BSD license.                           #
 #   http://www.dyeager.org/downloads/license-bsd.txt    #
