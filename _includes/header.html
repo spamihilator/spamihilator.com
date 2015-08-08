@@ -21,6 +21,22 @@
 <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
 <script src="{{ site.url }}/scripts/foundation/modernizr.foundation.js"></script>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+  window.cookieconsent_options = {
+    "message": "{% if page.lang == 'de' %}Diese Website nutzt Cookies, um Ihnen die bestm&ouml;gliche Nutzererfahrung auf unserer Website bieten zu k&ouml;nnen.{% else %}This website uses cookies to ensure you get the best experience on our website.{% endif %}",
+    "dismiss": "{% if page.lang == 'de' %}Verstanden!{% else %}Got it!{% endif %}",
+    "learnMore": "{% if page.lang == 'de' %}Datenschutzerkl&auml;rung{% else %}Privacy notice{% endif %}",
+    "link": "{{ site.url }}/{{ page.lang }}/{% if page.lang == 'de' %}impressum#datenschutz-und-cookies{% else %}about#privacy-and-cookies{% endif %}",
+    "theme":"light-bottom"
+  };
+  window.cookieconsent_options.domain = location.hostname.split('.').slice(-2).join('.');
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.1.0.6.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
 </head>
 <body class="{{ page.uid }}-page {{ page.layout }}-layout">
 
