@@ -56,6 +56,14 @@ run the following command:
 Launch a web browser and open `http://localhost:4000` to view the site.
 For more information see [Jekyll's website](http://jekyllrb.com).
 
+Building and running with Docker
+--------------------------------
+
+If you don't have Ruby and don't want to install it you can use the Docker image:
+
+    docker build -t spamihilator.com-dev .
+    docker run -it -p 4000:4000 -v $(pwd)/_site:/spamihilator.com/_site spamihilator.com-dev "jekyll --server"
+
 License
 -------
 
