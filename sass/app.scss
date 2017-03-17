@@ -367,3 +367,59 @@ dl.tabs.no-buttons {
   z-index: 9999;
   @include box-shadow(lighten($black, 40%) 1px 1px 5px);
 }
+
+.docs-screenshot {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+pre {
+  margin-bottom: 20px;
+  display: inline-block;
+
+  code {
+    display: inline-block;
+  }
+}
+
+.noteclassic {
+  background-image: url("../images/docs/note.png");
+}
+
+.noteimportant {
+  background-image: url("../images/docs/important.png");
+}
+
+.notewarning {
+  background-image: url("../images/docs/warning.png");
+}
+
+.notetip {
+  background-image: url("../images/docs/tip.png");
+}
+
+.noteclassic, .noteimportant, .notewarning, .notetip {
+  margin: 2em 0;
+  min-height: 40px;
+  clear: both;
+  text-align: justify;
+  vertical-align: middle;
+  padding: 15px 20px 15px 80px;
+  background-position: 20px 50%;
+  background-repeat: no-repeat;
+
+  ul {
+    padding: 10px 20px;
+  }
+}
+
+.mainWithAd .google-ads1 {
+  margin-top: 6.7em;
+}
+
+.mainWithAdLower .google-ads1 {
+  margin-top: 11em;
+}
