@@ -29,6 +29,7 @@ This is a list of frequently asked questions.
 [A08. Why doesn't Spamihilator send faked error messages back to the spam sender?](#a08)  
 [A09. May I use Spamihilator in a commercial environment (i.e. on my company's computers)?](#a09)  
 [A10. Does Spamihilator work with my email client?](#a10)  
+[A11. How do I find my configuration directory?](#a11)  
 
 ##### Problems
 
@@ -155,6 +156,22 @@ Outlook 2000/XP/2003/Express, Eudora, Mozilla Thunderbird, IncrediMail, Pegasus 
 
 Other mail clients have to be configured manually. Please have a look at the
 [online help]({{ site.url }}/de/help).
+
+#### <a id="a11"></a>A11. How do I find my configuration directory?
+
+The latest Spamihilator versions are multi-user compatible, that means settings (incl. Recycle Bin, Training Area etc.) will be saved in the users application data directory and not in the program folder. This ensures, changed settings can always be saved correctly, even though the user has no write-access to the program folder, just like under Windows Vista. But also Windows 2000 and XP protect the program folder if the user has a non-privileged account.
+
+Important files in the configuration directory are for example: `spamihilator.ini`, `client.log`, `server.log`, `recyclebin.xml` and `training.xml`.
+
+You can find this directory at one of the following places:
+
+1.  If Spamihilator has been installed with the option "Separate settings per user account" (recommended, default method):
+    Windows 2000/XP:  
+    _C:\Documents and Settings\\**Username**\Application Data\Spamihilator_  
+    Windows Vista:  
+    _C:\Users\\**Username**\AppData\Roaming\Spamihilator_  
+2.  If Spamihilator has been installed with the option "Shared settings for all users" (old method):  
+    _C:\Program Files\Spamihilator_
 
 </div>
 </div>

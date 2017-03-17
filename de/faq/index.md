@@ -29,6 +29,7 @@ Hier finden Sie eine Liste von häufig gestellten Fragen.
 [A08. Warum schickt das Programm keine gefälschten Fehlermeldungen an den Spam-Versender zurück?](#a08)  
 [A09. Kann ich Spamihilator in einer kommerziellen Umgebung einsetzen?](#a09)  
 [A10. Funktioniert Spamihilator mit meinem E-Mail-Programm (z.B. dem von T-Online)?](#a10)  
+[A11. Wo finde ich mein Konfigurationsverzeichnis?](#a11)  
 
 ##### Probleme
 
@@ -156,6 +157,22 @@ Der Setup-Assistent von Spamihilator kann folgende Programme automatisch konfigu
 Outlook 2000/XP/2003/Express, Eudora, Mozilla Thunderbird, IncrediMail, Pegasus Mail, Phoenix Mail und Opera.
 
 Andere E-Mail-Programme müssen Sie manuell einstellen. Schauen Sie dazu bitte in die [Hilfe]({{ site.url }}/de/help).
+
+#### <a id="a11"></a>A11. Wo finde ich mein Konfigurationsverzeichnis?
+
+Die neusten Versionen von Spamihilator sind mehrbenutzerfähig, d.h. auf Systemen, an denen mehrere Benutzer arbeiten, werden die Programmeinstellungen (inkl. Papierkorb, Trainingsbereich o.ä.) im Anwendungsdaten-Verzeichnis des jeweiligen Benutzers abgelegt und nicht mehr im Programm-Verzeichnis. Dies stellt außerdem sicher, dass Änderungen an den Einstellungen immer erfolgreich gespeichert werden können, auch wenn der Benutzer keinen Schreibzugriff auf das Programm-Verzeichnis hat, wie es z.B. unter Windows Vista/7 standardmäßig der Fall ist. Aber auch unter Windows 2000 und XP ist dieses Verzeichnis schreibgeschützt, wenn der Benutzer mit einem eingeschränkten Konto arbeitet.
+
+Wichtige Dateien in Konfigurationsverzeichnis sind z.B.: `spamihilator.ini`, `client.log`, `server.log`, `recyclebin.xml` und `training.xml`.
+
+Sie finden das Verzeichnis an einem der folgenden Orte:
+
+1.  Wenn bei der Installation von Spamihilator "Getrennte Einstellungen" gewählt wurde (empfohlen, Standard-Methode):  
+    Windows 2000/XP:  
+    _C:\Dokumente und Einstellungen\\**Benutzername**\Anwendungsdaten\Spamihilator_  
+    Windows Vista/7:  
+    _C:\Benutzer\\**Benutzername**\AppData\Roaming\Spamihilator_  
+2.  Wenn bei der Installation "Gemeinsame Einstellungen für alle Benutzer" gewählt wurde (alte Methode):  
+    _C:\Programme\Spamihilator_
 
 </div>
 </div>
