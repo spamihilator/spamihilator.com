@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Substring-Filter v 1.5.0
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Substring-Filter v 1.5.0
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Substring-Filter v 1.5.0
 
 ### Substring-Filter v 1.5.0
 

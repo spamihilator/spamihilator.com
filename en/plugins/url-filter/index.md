@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; URL-Filter v 1.8.0
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; URL-Filter v 1.8.0
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; URL-Filter v 1.8.0
 
 ### URL-Filter v 1.8.0
 

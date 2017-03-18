@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Strange-Country-Filter v 1.1.0
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Strange-Country-Filter v 1.1.0
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Strange-Country-Filter v 1.1.0
 
 ### Strange-Country-Filter v 1.1.0
 

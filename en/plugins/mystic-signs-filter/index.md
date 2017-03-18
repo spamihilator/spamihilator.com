@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Mystic-Signs-Filter 1.1.1
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Mystic-Signs-Filter 1.1.1
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Mystic-Signs-Filter 1.1.1
 
 ### Mystic-Signs-Filter 1.1.1
 

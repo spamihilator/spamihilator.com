@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Hercule Filter
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Hercule Filter
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Hercule Filter
 
 ### Hercule Filter
 

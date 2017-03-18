@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Empty Mail Filter v1.3.2
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Empty Mail Filter v1.3.2
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Empty Mail Filter v1.3.2
 
 ### Empty Mail Filter v1.3.2
 

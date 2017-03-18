@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; RFC-Validator 1.2.0
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; RFC-Validator 1.2.0
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; RFC-Validator 1.2.0
 
 ### RFC-Validator 1.2.0
 

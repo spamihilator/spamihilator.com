@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; AIR Filter 0.1.5
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; AIR Filter 0.1.5
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; AIR Filter 0.1.5
 
 ### AIR Filter 0.1.5
 

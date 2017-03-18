@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; No Comment! Filter v1.2.2
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; No Comment! Filter v1.2.2
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; No Comment! Filter v1.2.2
 
 ### No Comment! Filter v1.2.2
 

@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Signature Filter 0.5.2
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Signature Filter 0.5.2
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Signature Filter 0.5.2
 
 ### Signature Filter 0.5.2
 

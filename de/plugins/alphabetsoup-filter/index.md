@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; AlphabetSoup Filter 1.0
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; AlphabetSoup Filter 1.0
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; AlphabetSoup Filter 1.0
 
 ### AlphabetSoup Filter 1.0
 

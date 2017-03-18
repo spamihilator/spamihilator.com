@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; DNSBL 0.8.0
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; DNSBL 0.8.0
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; DNSBL 0.8.0
 
 ### DNSBL 0.8.0
 

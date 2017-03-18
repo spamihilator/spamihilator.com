@@ -85,6 +85,22 @@ Dieser Filter blockiert Mails, die leer sind oder sehr wenige Wörter enthalten.
 
 ---
 
+#### [Export Senders Plugin v1.2.2]({{site.url}}/de/plugins/export-senders-plugin)
+
+_von Bob Loeffler, 21.02.2005_
+
+Dieses Plugin ermöglicht es Ihnen, Ihre Freunde-Liste oder Blockierte-Absende-Liste (oder beide)... [[mehr]({{site.url}}/de/plugins/export-senders-plugin)]
+
+---
+
+#### [Filter Statistics v1.1.4]({{site.url}}/de/plugins/filter-statistics)
+
+_von Bob Loeffler, 28.11.2009_
+
+The Filter Statistics is a plugin that allows the configuration and graphing of filter statistics. ... [[mehr]({{site.url}}/de/plugins/filter-statistics)]
+
+---
+
 #### [Foreign language Filter]({{site.url}}/de/plugins/foreign-language-filter)
 
 _von Edy Hinzen, 14.11.2004_
@@ -150,6 +166,14 @@ Sortiert Mails aus, die HTML-Kommentare enthalten. Kommentare im HTML werden von
 
 ---
 
+#### [Outgoing Friends]({{site.url}}/de/plugins/outgoing-friends)
+
+_von Alex Vallat, 25.01.2008_
+
+Anyone I send an email to is not a spammer, so what this utility does is scan every outgoing email... [[mehr]({{site.url}}/de/plugins/outgoing-friends)]
+
+---
+
 #### [Plain Text Links Filter v1.2.2]({{site.url}}/de/plugins/plain-text-links-filter)
 
 _von Bob Loeffler, 30.04.2007_
@@ -189,6 +213,22 @@ Das Tool baut einen Verbindung ins Internet... [[mehr]({{site.url}}/de/plugins/s
 _von Bernhard Mähr, 07.11.2004_
 
 Dieser Filter sorgt dafür das alle anderen Filter ignoriert werden, wenn ein Teil der eigenen... [[mehr]({{site.url}}/de/plugins/signature-filter)]
+
+---
+
+#### [Spami2Service]({{site.url}}/de/plugins/spami2service)
+
+_von Ulrich Brunner, 03.05.2004_
+
+Diese Setup richtet Spamihilator als WindowsNT/2k/XP/2k3 Dienst ein. Bitte die Beschreibung und... [[mehr]({{site.url}}/de/plugins/spami2service)]
+
+---
+
+#### [Spamihilator-Forum-Reader-PlugIn 1.5.0]({{site.url}}/de/plugins/spamihilator-forum-reader-plugin)
+
+_von Sebastian Laiblin, 15.11.2004_
+
+Öffnet Beiträge automatisch im Browser, wenn das Forum den Benutzer über ein neues Posting... [[mehr]({{site.url}}/de/plugins/spamihilator-forum-reader-plugin)]
 
 ---
 
@@ -235,11 +275,27 @@ Filtert Mails aus, die URLs enthalten, die auf spambeworbenen
 
 ---
 
+#### [Virtual POP3-Server 1.0 Beta 2]({{site.url}}/de/plugins/virtual-pop3-server-1.0-beta-2)
+
+_von Boris Kugelmeier, 22.03.2004_
+
+Dieses Programm ist ein virtueller POP3-Server für Plugin-Autoren, das den aufwändigen... [[mehr]({{site.url}}/de/plugins/virtual-pop3-server-1.0-beta-2)]
+
+---
+
 #### [Whitestring-Filter v 1.5.0]({{site.url}}/de/plugins/whitestring-filter)
 
 _von Sebastian Laiblin, 12.10.2003_
 
 Sucht nach bestimmten (von dir vorher definierten) Substrings in den eingehenden Mails. Wenn er... [[mehr]({{site.url}}/de/plugins/whitestring-filter)]
+
+---
+
+#### [Wordlist-Extractor v 1.0.0]({{site.url}}/de/plugins/wordlist-extractor)
+
+_von Sebastian Laiblin, 06.06.2004_
+
+Extrahiert die Wortliste des Lernenden Filters in eine Textdatei, so dass man sich die Werte... [[mehr]({{site.url}}/de/plugins/wordlist-extractor)]
 
 ---
 

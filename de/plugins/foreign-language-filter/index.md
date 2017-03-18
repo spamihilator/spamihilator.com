@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Foreign language Filter
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Foreign language Filter
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Foreign language Filter
 
 ### Foreign language Filter
 

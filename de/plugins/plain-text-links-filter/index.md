@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Plain Text Links Filter v1.2.2
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Plain Text Links Filter v1.2.2
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Plain Text Links Filter v1.2.2
 
 ### Plain Text Links Filter v1.2.2
 

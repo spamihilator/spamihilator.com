@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; HTML Links Filter v1.2.2
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; HTML Links Filter v1.2.2
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; HTML Links Filter v1.2.2
 
 ### HTML Links Filter v1.2.2
 

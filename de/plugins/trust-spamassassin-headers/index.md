@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Trust SpamAssassin Headers
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Trust SpamAssassin Headers
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Trust SpamAssassin Headers
 
 ### Trust SpamAssassin Headers
 

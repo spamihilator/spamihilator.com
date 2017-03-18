@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Charset Plugin
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Charset Plugin
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Charset Plugin
 
 ### Charset Plugin
 

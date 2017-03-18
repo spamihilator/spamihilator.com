@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Bad Tag Filter 0.2.3
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Bad Tag Filter 0.2.3
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Bad Tag Filter 0.2.3
 
 ### Bad Tag Filter 0.2.3
 

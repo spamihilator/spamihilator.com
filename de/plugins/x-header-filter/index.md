@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; X-Header-Filter 1.5.5
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; X-Header-Filter 1.5.5
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; X-Header-Filter 1.5.5
 
 ### X-Header-Filter 1.5.5
 

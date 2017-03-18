@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Whitestring-Filter v 1.5.0
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Whitestring-Filter v 1.5.0
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Whitestring-Filter v 1.5.0
 
 ### Whitestring-Filter v 1.5.0
 

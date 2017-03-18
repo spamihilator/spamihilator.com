@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Misnamed Filter
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; Misnamed Filter
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; Misnamed Filter
 
 ### Misnamed Filter
 

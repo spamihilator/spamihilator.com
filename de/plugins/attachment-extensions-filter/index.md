@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Attachment Extensions Filter v0.9.6
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Attachment Extensions Filter v0.9.6
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Attachment Extensions Filter v0.9.6
 
 ### Attachment Extensions Filter v0.9.6
 

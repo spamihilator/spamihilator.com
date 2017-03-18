@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; IMP-Filter
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; IMP-Filter
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; IMP-Filter
 
 ### IMP-Filter
 

@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Server-Tester 0.5.1
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Server-Tester 0.5.1
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Server-Tester 0.5.1
 
 ### Server-Tester 0.5.1
 

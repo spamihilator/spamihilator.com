@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; 0190-Filter
 layout: main_with_ad
 ---
 
-[Spamihilator Plugins]({{ site.url }}/en/plugins) &laquo; 0190-Filter
+[Plugins/Add-Ons]({{ site.url }}/en/plugins) &laquo; 0190-Filter
 
 ### 0190-Filter
 

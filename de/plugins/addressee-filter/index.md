@@ -5,7 +5,7 @@ title: Spamihilator &raquo; Plugins &raquo; Addressee Filter
 layout: main_with_ad
 ---
 
-[Spamihilator-Plugins]({{ site.url }}/de/plugins) &laquo; Addressee Filter
+[Plugins/Add-Ons]({{ site.url }}/de/plugins) &laquo; Addressee Filter
 
 ### Addressee Filter
 
