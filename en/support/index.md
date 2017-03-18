@@ -2,7 +2,7 @@
 uid: support
 title: Spamihilator Support Area
 lang: en
-layout: main
+layout: main_with_ad_lower
 ---
 
 <div class="row">
@@ -11,10 +11,10 @@ layout: main
 ## Support
 {: .page-title}
 
-### Online Help (Spamihilator Wiki)
+### Documentation
 
-The [Online Help (Spamihilator Wiki)](http://wiki.spamihilator.com) contains the official
-software documentation and some tutorials for Spamihilator.
+The [Documentation]({{ site.url }}/en/docs) contains a detailed description
+of all features of Spamihilator.
 
 ### Frequently Asked Questions (FAQ)
 

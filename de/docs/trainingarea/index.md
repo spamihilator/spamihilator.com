@@ -33,19 +33,21 @@ Sie können den Absender, den Betreff und das Datum/die Uhrzeit der Nachricht be
 
 ![Hilfe]({{ site.url }}/images/docs/de/help.png) Klicken Sie auf das Fragezeichen, wenn Sie diese **Hilfe** erhalten wollen.
 
+<div class="notetip" markdown="1">
 **Tipp: Absender blockieren oder zu den Freunden hinzufügen**
-{: .notetip }
 
 Wenn sich eine E-Mail im Trainingsbereich befindet und Sie möchten deren Absender zu der Liste der blockierten Absender oder zu Ihren Freunden hinzufügen, dann klicken Sie die Nachricht mit der rechten Maustaste an und wählen entweder "**Absender permanent blockieren**" oder "**Absender zu meinen Freunden hinzufügen**".
 
 ![Popup-Menü]({{ site.url }}/images/docs/de/popup_trainingarea.png)
+</div>
 
+<div class="notetip" markdown="1">
 **Tipp: Zum Papierkorb springen**
-{: .notetip }
 
 Klicken Sie auf den zusätzlichen Button in der Menüleiste, um schnell zum [Papierkorb]({{ site.url }}/de/docs/recycle) zu springen!
 
 ![Shortcut-Button]({{ site.url }}/images/docs/de/trainingarea_shortcut_de.png)
+</div>
 
 </div>
 </div>
