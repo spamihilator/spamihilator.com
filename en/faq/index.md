@@ -93,7 +93,7 @@ Yes. The Setup Wizard automatically configures all accounts. Click on
 
 If the Setup Wizard doesn't find one of your accounts you will have to
 configure it manually. Please read the help files:  
-<http://wiki.spamihilator.com/doku.php?id=en:configclient>
+<http://www.spamihilator.com/en/docs/configclient/>
 
 #### <a id="a04"></a>A04. Spamihilator and Hotmail
 

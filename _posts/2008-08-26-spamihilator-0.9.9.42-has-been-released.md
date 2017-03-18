@@ -12,7 +12,7 @@ Spamihilator 0.9.9.42 also includes a new filter, which searches incoming
 messages for links to spam websites! The so-called Link Filter is able to
 learn! Please use the Training Area frequently to make sure the filter's
 recognition rate stays at a high level. More information about the Link Filter
-can be found in the [Spamihilator Wiki](http://wiki.spamihilator.com/doku.php?id=en:linkfilter).
+can be found in the [Spamihilator Wiki](http://www.spamihilator.com/en/docs/linkfilter/).
 
 This is the complete list of changes:
 

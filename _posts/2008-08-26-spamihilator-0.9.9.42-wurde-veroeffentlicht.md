@@ -14,7 +14,7 @@ Nachrichten nach Links zu Spam-Webseiten durchsucht! Der so genannte Link Filter
 ist lernfähig! Bitte benutzen Sie regelmäßig den Trainingsbereich, um
 sicherzustellen, dass die Spam-Erkennungsrate stets auf einem hohen Niveau
 liegt. Weitere Information zum neuen Link-Filter finden Sie im
-[Spamihilator-Wiki](http://wiki.spamihilator.com/doku.php?id=de:linkfilter).
+[Spamihilator-Wiki](http://www.spamihilator.com/de/docs/linkfilter/).
 
 Dies ist die vollständige Liste aller Änderungen:
 

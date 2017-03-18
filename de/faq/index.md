@@ -98,7 +98,7 @@ um alle Programme richtig einzustellen. Sie finden ihn im Startmenü in der Spam
 
 Wenn der Setup-Assistent ein Konto nicht findet, müssen Sie es manuell konfigurieren. Schauen
 Sie sich dazu folgenden Link an:  
-<http://wiki.spamihilator.com/doku.php?id=de:configclient>
+<http://www.spamihilator.com/de/docs/configclient/>
 
 Dort finden Sie eine kurze Anleitung, wie man auch andere Konten per Hand einstellt.
 
