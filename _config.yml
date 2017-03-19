@@ -6,7 +6,7 @@ pygments: false
 markdown: kramdown
 
 lsi: false
-url: http://localhost:4000
-canonicalurl: http://www.spamihilator.com
-newsletterserviceurl: http://www.spamihilator.com/newsletter
+url: https://www.spamihilator.com
+canonicalurl: https://www.spamihilator.com
+newsletterserviceurl: https://www.spamihilator.com/newsletter
 exclude: [ config.rb, sass, Gemfile, Gemfile.lock, README.md, Dockerfile ]
