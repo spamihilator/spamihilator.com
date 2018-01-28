@@ -21,5 +21,5 @@ und senden Sie uns einen Pull-Request. Weitere Informationen finden Sie in der
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />
 Wenn nicht anders angegeben, sind die Dateien im Repository der <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spamihilator-Webseite</span>
-von <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.michel-kraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Krämer</a>
+von <a xmlns:cc="http://creativecommons.org/ns#" href="https://michelkraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Krämer</a>
 unter der <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a> veröffentlicht.

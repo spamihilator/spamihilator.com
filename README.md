@@ -3,7 +3,7 @@ Spamihilator website
 
 This repository contains the source files for the Spamihilator website.
 
-<http://www.spamihilator.com>
+<https://www.spamihilator.com>
 
 Everybody is invited to contribute! Please fork the repository and send
 me pull requests. I will check and upload them to the Spamihilator web
@@ -14,12 +14,12 @@ on creating pull requests.
 Building
 --------
 
-This website has been created using [Jekyll](http://jekyllrb.com). If
+This website has been created using [Jekyll](https://jekyllrb.com). If
 you want to build it please follow these steps:
 
 1. Download and install **Ruby 1.8.7** (if you haven't done so already).
    
-   Under *Windows* I recommend to use [RubyInstaller](http://rubyinstaller.org/).
+   Under *Windows* I recommend to use [RubyInstaller](https://rubyinstaller.org/).
    Under *Linux* and *Mac OS* I highly recommend to use [rvm](https://rvm.io/)
    as the repository already contains proper `.ruby-version` and
    `.ruby-gemset` files.
@@ -69,7 +69,7 @@ License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />
 If not noted otherwise the files in the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spamihilator website</span>
-repository by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.michel-kraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Krämer</a>
+repository by <a xmlns:cc="http://creativecommons.org/ns#" href="https://michelkraemer.com" property="cc:attributionName" rel="cc:attributionURL">Michel Krämer</a>
 are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.spamihilator.com" rel="dct:source">http://www.spamihilator.com</a> and
 <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/michel-kraemer/spamihilator.com" rel="dct:source">https://github.com/michel-kraemer/spamihilator.com</a>.
