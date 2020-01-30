@@ -13,7 +13,7 @@ ADD .ruby-gemset /spamihilator.com/.ruby-gemset
 ADD .ruby-version /spamihilator.com/.ruby-version
 
 WORKDIR /spamihilator.com
-RUN /bin/bash -l -c "gem install bundler && bundle install"
+RUN /bin/bash -l -c "gem install bundler -v 1.16.1 && bundle install"
 
 ADD . /spamihilator.com/
 RUN /bin/bash -l -c "compass compile"
