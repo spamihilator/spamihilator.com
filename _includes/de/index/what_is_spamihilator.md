@@ -1,13 +1,3 @@
-<div class="row">
-  <div class="twelve columns">
-    <div class="alert-box alert">
-      Das Zertifikat für die verschlüsselte Verbindung zwischen Spamihilator und
-      Ihrem E-Mail-Programm ist am 29. Januar 2020 abgelaufen. Wenn Sie eine
-      Fehlermeldung erhalten, <a href="{{ site.url }}/de/blog/update-ssl-tls-zertifikat">lesen Sie unsere Anleitung hier</a>, um das Zertifikat durch ein neues zu ersetzen.
-    </div>
-  </div>
-</div>
-
 ### Was ist Spamihilator?
 
 <h5 class="subheader">

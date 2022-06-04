@@ -1,12 +1,3 @@
-<div class="row">
-  <div class="twelve columns">
-    <div class="alert-box alert">
-      Spamihilator's SSL/TLS certificate has expired on 29 January 2020. If you
-      get an error message, <a href="{{ site.url }}/en/blog/update-ssl-tls-certificate">click here for instructions</a> on how to replace the certificate with a new one.
-    </div>
-  </div>
-</div>
-
 ### What is Spamihilator?
 
 <h5 class="subheader">
