@@ -5,6 +5,12 @@ lang: de
 layout: post
 ---
 
+<div class="alert-box alert">
+  Dieser Artikel trifft auf Spamihilator Version 1.6.0 oder älter zu. Die neue
+  Version <a href="{{ site.url }}/de/download">Spamihilator 1.7.0</a> löst
+  dieses Problem bereits.
+</div>
+
 Das Zertifikat für die verschlüsselte Verbindung zwischen Ihrem E-Mail-Programm
 und Spamihilator ist seit dem 29. Januar 2020 abgelaufen. Wenn Sie eine
 entsprechende Fehlermeldung erhalten, befolgen Sie diese Anweisungen, um das

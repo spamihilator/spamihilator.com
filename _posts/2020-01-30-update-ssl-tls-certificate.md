@@ -5,6 +5,12 @@ lang: en
 layout: post
 ---
 
+<div class="alert-box alert">
+  This article applies to Spamihilator version 1.6.0 or older. The new
+  version <a href="{{ site.url }}/de/download">Spamihilator 1.7.0</a> already
+  solves the problem.
+</div>
+
 The certificate for encrypted connections between your email client and
 Spamihilator has expired on 29 January 2020. If you get an error message,
 follow these instructions to replace the certificate with a new one:
